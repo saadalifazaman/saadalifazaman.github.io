@@ -1,5 +1,5 @@
 ---
-title: "Interaction-Effect Metric for Data-Scarce Industrial Vision"
+title: "Interaction-Effect Metric and k-n Fold ACV for Data-Scarce Industrial Vision"
 excerpt: "Developed a novel augmentation cross-validation protocol and Interaction-Effect metric for small industrial datasets, validated on ship hull biofouling imagery."
 collection: portfolio
 ---
