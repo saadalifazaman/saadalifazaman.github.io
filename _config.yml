@@ -36,13 +36,13 @@ author:
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=kN9fTeMAAAAJ&hl=en&authuser=4"
+  researchgate     : https://www.researchgate.net/profile/Saad-Alif-A-Zaman # URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0009-0007-2460-6911"
+  orcid            : #"https://orcid.org/my-orcid?orcid=0009-0007-2460-6911"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : https://www.researchgate.net/profile/Saad-Alif-A-Zaman # URL
   scopus           : # URL
   zotero           : # URL
 
