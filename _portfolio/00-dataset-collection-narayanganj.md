@@ -46,8 +46,10 @@ No usable public dataset existed for this domain. Building one was a prerequisit
 ---
 
 ## Representative Dataset Samples
-*Representative scenes from the NDBD dataset (from associated preprint, Fig. 2)*
 The dataset captures six representative scene types:
+
+![NDBD sample annotations](../images/ndbd-sample-annotations.jpg)
+*Representative scenes from the NDBD dataset (from associated preprint, Fig. 2)*
 
 - **(a)** Contextual daylight view without human presence
 - **(b)** Submerged ship-hull biofouling
@@ -55,8 +57,6 @@ The dataset captures six representative scene types:
 - **(d)** Under-hull inspection in low-light conditions with human presence
 - **(e)** Side-view cleaning operation with human presence
 - **(f)** Dockyard environment with visible infrastructure and human presence
-
-![NDBD sample annotations](../images/ndbd-sample-annotations.jpg)
 
 ---
 
