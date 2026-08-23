@@ -1,6 +1,6 @@
 ---
 title: "Field Data Collection: Narayanganj Dockyard Biofouling Dataset (NDBD)"
-excerpt: "Independently collected and curated the first publicly available ship hull biofouling dataset from an active industrial dockyard in Bangladesh. 35 high-resolution images, 92 annotated instances, CC BY-NC 4.0 license, foundational to two subsequent research projects."
+excerpt: "Independently collected and curated the first publicly available ship hull biofouling dataset from an active industrial dockyard in Bangladesh. 35 high-resolution images, 92 annotated instances, CC BY-NC 4.0 license, foundational to two subsequent research projects.<br/><img src='/images/ndbd-sample-annotations.jpg'>"
 collection: portfolio
 ---
 
@@ -48,7 +48,7 @@ No usable public dataset existed for this domain. Building one was a prerequisit
 ## Representative Dataset Samples
 The dataset captures six representative scene types:
 
-![NDBD sample annotations](../images/ndbd-sample-annotations.jpg)
+![NDBD sample annotations](/images/ndbd-sample-annotations.jpg)
 *Representative scenes from the NDBD dataset (from associated preprint, Fig. 2)*
 
 - **(a)** Contextual daylight view without human presence
