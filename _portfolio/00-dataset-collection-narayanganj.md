@@ -56,9 +56,7 @@ The dataset captures six representative scene types:
 - **(e)** Side-view cleaning operation with human presence
 - **(f)** Dockyard environment with visible infrastructure and human presence
 
-> *Sample annotated images from the paper will be added here.*  
-> *(Upload your Figure 2 image to the `images/` folder as `ndbd-sample-annotations.jpg` and replace this line with:*  
-> `![NDBD sample annotations](../images/ndbd-sample-annotations.jpg)`*)*
+![NDBD sample annotations](../images/ndbd-sample-annotations.jpg)
 
 ---
 
