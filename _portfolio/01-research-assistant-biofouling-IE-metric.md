@@ -7,7 +7,7 @@ collection: portfolio
 **Role:** Research Assistant (August 2025 – August 2026)  
 **Supervisors:**  
 Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
-Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET
+Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET  
 **Status:** Manuscript under review  
 **Code and Dataset:** [GitHub — NDBD](https://github.com/saadalif06BUET/NDBD)
 
