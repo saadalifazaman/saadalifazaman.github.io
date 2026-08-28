@@ -4,8 +4,10 @@ excerpt: "A novel framework for principled augmentation pipeline design under ex
 collection: portfolio
 ---
 
-**Role:** Research Assistant (August 2025 – Present)  
-**Supervisors:** Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET; Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET  
+**Role:** Research Assistant (August 2025 – August 2026)  
+**Supervisors:**  
+Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
+Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET
 **Status:** Manuscript under review  
 **Code and Dataset:** [GitHub — NDBD](https://github.com/saadalif06BUET/NDBD)
 
@@ -13,11 +15,11 @@ collection: portfolio
 
 ## The Problem
 
-Marine biofouling costs the global shipping industry up to **USD 30 billion annually**[(Martinez, 2025)](https://www.worldports.org/the-global-biofouling-challenge-calls-for-new-technology/) in increased fuel consumption and maintenance. A single ship with 10% barnacle coverage requires 36% more shaft power — and over 110 million tons of excess CO₂ is emitted annually from hard biofouling. Automated hull inspection is therefore a critical component of intelligent maritime maintenance.
+Marine biofouling costs the global shipping industry up to **USD 30 billion annually**[(Martinez, 2025)](https://www.worldports.org/the-global-biofouling-challenge-calls-for-new-technology/) in increased fuel consumption and maintenance. A single ship with 10% barnacle coverage requires 36% more shaft power [AB (2025)](https://selektope.com/wp-content/uploads/2025/04/How-much-could-barnacle-biofouling-limit-shippings-decarbonisation.pdf) and over 110 million tons of excess CO₂ [AB (2025)](https://selektope.com/wp-content/uploads/2025/04/How-much-could-barnacle-biofouling-limit-shippings-decarbonisation.pdf) is emitted annually from ships that have hard biofouling on their hulls. Automated hull inspection is therefore a critical component of intelligent maritime maintenance.
 
-The core bottleneck is **data scarcity**. Real industrial inspection environments cannot produce thousands of labeled images — collecting and annotating hull imagery is expensive, logistically constrained, and access-restricted. Existing augmentation methods (AutoAugment, RandAugment, AugMix, TrivialAugment) optimize transformation selection but share a fundamental assumption: that the joint effect of two augmentations is adequately approximated by their independent contributions, and that applying augmentation A before B is equivalent to applying B before A. **This assumption has never been empirically tested in small-data instance segmentation regimes.**
+The core bottleneck is **data scarcity**. Real industrial inspection environments cannot produce thousands of labeled images. Because collecting and annotating hull imagery is expensive, logistically constrained, and access-restricted. Existing augmentation methods [AutoAugment](https://arxiv.org/abs/1805.09501) (Cubuk et al., 2019), [RandAugment](https://arxiv.org/abs/1909.13719) (Cubuk et al., 2020), [AugMix](https://arxiv.org/abs/1912.02781) (Hendrycks et al., 2019), and [TrivialAugment](https://arxiv.org/abs/2103.10158) (Müller & Hutter, 2021) optimize transformation selection but share a fundamental assumption: that the joint effect of two augmentations is adequately approximated by their independent contributions, and that applying augmentation A before B is equivalent to applying B before A. **This assumption has never been empirically tested in small-data instance segmentation regimes.**
 
-Without a metric to quantify whether two augmentations together outperform or underperform their individual contributions, practitioners working with fewer than 50 labeled images have no principled basis for pipeline construction — they rely entirely on trial and error.
+Without a metric to quantify whether two augmentations together outperform or underperform their individual contributions, practitioners working with fewer than 50 labeled images have no principled basis for pipeline construction. Thus, they rely entirely on trial and error.
 
 ---
 
@@ -32,14 +34,14 @@ A novel metric that explicitly quantifies **order-sensitive, pairwise augmentati
 $$IE_{\alpha \to \beta} = CE_{\alpha \to \beta} - \frac{SE_\alpha + SE_\beta}{2}$$
 
 Where:
-- **CE** = Combined Effect of the ordered pair (α then β)
+- **CE** = Combined Effect of the ordered pair augmentation (α then β)
 - **SE** = Single Effect of each individual augmentation
 
-A **positive IE** indicates the ordered pair produces performance exceeding the arithmetic mean of its individual effects (synergistic). A **negative IE** indicates the pair is sub-additive relative to that average (antagonistic). This additive null hypothesis reflects the fact that both augmentations are applied to the same training image — their combined effect **replaces** rather than accumulates their individual contributions.
+A **positive IE** indicates the ordered pair produces performance exceeding the arithmetic mean of its individual effects (synergistic). A **negative IE** indicates the pair performs below the arithmetic mean of its individual effects, though it may still exceed the performance of either augmentation applied alone. This additive null hypothesis reflects the fact that both augmentations are applied to the same training image — their combined effect **replaces** rather than accumulates their individual contributions.
 
 ### 2. k–n Fold Augmentation Cross-Validation (ACV) Protocol
 
-Standard k-fold cross-validation introduces a specific evaluation bias when used for augmentation studies: augmented derivatives of a raw validation image may appear in the training set. Under extreme data scarcity (n < 50), this is not negligible — a single raw image and its augmented versions can constitute a substantial fraction of the entire dataset, introducing optimistic bias into performance estimation.
+Standard k-fold cross-validation introduces a specific evaluation bias when used for augmentation studies. Augmented derivatives of a raw validation image may appear in the training set. Under extreme data scarcity (n < 50), this is not negligible. Because a single raw image and its augmented versions can constitute a substantial fraction of the entire dataset, introducing optimistic bias into performance estimation.
 
 The **k–n Fold ACV protocol** eliminates this bias by enforcing strict separation between augmented training data and raw validation data:
 - Raw images are divided into **k balanced folds** held in a validation folder
@@ -50,17 +52,17 @@ The **k–n Fold ACV protocol** eliminates this bias by enforcing strict separat
 
 ### 3. Two-Stage Screening Framework
 
-Exhaustively evaluating all 110 ordered pairs from 11 augmentations with full ACV would require 1,650 training runs — computationally prohibitive. The framework addresses this through a two-stage approach:
+Exhaustively evaluating all 110 ordered pairs from 11 augmentations with full k-n fold ACV would require 1,650 training runs, computationally infeasible under the available GPU budget. The framework addresses this through a two-stage approach:
 
-**Stage 1 — IE-driven fixed-partition screening:** All 110 ordered pairs evaluated on a single representative partition to compute IE values. The IE heatmap reveals order-dependent dynamics across photometric, geometric, and noise-based augmentation categories.
+**Stage 1: IE-driven fixed-partition screening:** All 110 ordered pairs evaluated on a single representative partition to compute IE values. The IE heatmap reveals order-dependent dynamics across photometric, geometric, and noise & blur based augmentation categories.
 
-**Stage 2 — Full 5–1 Fold ACV on selected candidates:** The 7 most synergistic (IE ≥ 0.06) and 3 most antagonistic (IE ≤ −0.049) couples (14 ordered pairs total) were advanced to full cross-validated evaluation. This **reduces computation by 87%** while preserving representative pairwise interaction trends.
+**Stage 2: Full 5–1 Fold ACV on selected candidates:** The 5 most synergistic (IE ≥ 0.06) and 2 most antagonistic (IE ≤ −0.049) couples along with their reverse order (14 ordered pairs total) were advanced to full cross-validated evaluation. This **reduces computation by 87%** while preserving representative pairwise interaction trends.
 
 ---
 
 ## Dataset
 
-Validated on the **Narayanganj Dockyard Biofouling Dataset (NDBD)** — a newly curated dataset of 35 high-resolution ship-hull images with 92 annotated biofouling instances, collected from Dockyard & Engineering Works Ltd., Narayanganj, Bangladesh. This is the **first publicly available annotated dataset of dockyard hull surfaces under real operational conditions**, including human occlusion, oblique angles, and variable illumination. See the [Dataset Collection portfolio entry](/portfolio/00-dataset-collection-narayanganj/) for full details.
+Validated on the **Narayanganj Dockyard Biofouling Dataset (NDBD)**, a newly curated dataset of 35 high-resolution ship-hull images with 92 annotated biofouling instances. The dataset was collected from Dockyard & Engineering Works Ltd., Narayanganj, Bangladesh. This is the **first publicly available annotated dataset of dockyard hull surfaces under real operational conditions**. It included human occlusion, oblique angles, and variable illumination. See the [Dataset Collection portfolio entry](/portfolio/00-dataset-collection-narayanganj/) for full details.
 
 ---
 
@@ -92,13 +94,13 @@ All 11 augmentations produced statistically significant improvements (p < 0.05) 
 | Crop (0–30%) | 0.450 ± 0.016 | +28.32% |
 | Baseline | 0.351 ± 0.012 | — |
 
-Geometric augmentations (Rotation ±15°, Crop, Shear) consistently achieved the highest scores by forcing the model to learn features from partial views — critical for occluded fouling organisms. Notably, **Exposure (±15%) was the only augmentation achieving statistically significant recall improvement** (+8.91%), making it the preferred choice for safety-critical detection where missed fouling patches are costly.
+Geometric augmentations (Rotation ±15°, Crop, Shear) consistently achieved the highest scores by forcing the model to learn features from partial views, critical for occluded fouling organisms. Notably, **Exposure (±15%) was the only augmentation achieving statistically significant recall improvement** (+8.91%), making it the preferred choice for safety-critical detection where missed fouling patches are costly.
 
 ### Pairwise Augmentation Interactions
 
 **Category-level findings (from IE heatmap, 110 pairs):**
 
-| Category Pair | Strong Synergy (IE ≥ 0.4) | Moderate Synergy (IE ≥ 0.2) | Antagonism (IE < 0) |
+| Category Pair | Strong Synergy (IE ≥ 0.04) | Moderate Synergy (IE ≥ 0.02) | Antagonism (IE < 0) |
 |---|---|---|---|
 | Photometric → Photometric | 41.7% | 75% | 8.3% |
 | Photometric → Geometric | 5% | 55% | 15% |
@@ -115,7 +117,7 @@ Geometric augmentations (Rotation ±15°, Crop, Shear) consistently achieved the
 | Hue (±25°) | Rotation (±15°) | 0.503 ± 0.019 | +43.60% |
 | Baseline | — | 0.351 ± 0.012 | — |
 
-The **best ordered pair (Saturation → Rotation ±15°) outperforms the best single augmentation by +13.7%** absolute, achieved through sequencing decisions alone — no architectural modification, no additional inference-time cost.
+The **best ordered pair (Saturation → Rotation ±15°) outperforms the best single augmentation by +13.7%** absolute, achieved through sequencing decisions alone, no architectural modification, no additional inference-time cost.
 
 ### Order Sensitivity
 
@@ -145,7 +147,7 @@ A 41-image hold-out test set (collected from publicly available videos, case rep
 
 - **Resource efficiency:** The two-stage screening framework reduces the 110-pair evaluation space by 87% using IE-guided candidate selection, making systematic augmentation evaluation feasible without large GPU budgets.
 - **Deployment model:** The augmented model is positioned as a **human-in-the-loop pre-screening tool** — identifying likely fouling regions automatically while routing ambiguous cases for inspector review. This is the realistic deployment posture for Mask mAP50–95 = 0.517, which does not yet establish human-level boundary accuracy.
-- **Sustainability:** Timely fouling detection may reduce fuel consumption by an estimated 5–15%, supporting the IMO's 2050 decarbonization objectives.
+- **Sustainability:** Timely fouling detection may reduce fuel consumption by an estimated 5–15% [(Bakka et al., 2023)](https://doi.org/10.1080/09377255.2023.2166849), supporting the IMO's 2050 decarbonization [(IMO, 2023)](https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MEPCDocuments/MEPC.378(80).pdf) objectives.
 - **Transferability:** The IE metric and k–n Fold ACV protocol are domain-agnostic. The framework is applicable to any computer vision task involving extreme data scarcity (n < 50) with high intra-class variability — precision agriculture, structural inspection, environmental monitoring — though IE thresholds require domain-specific recalibration.
 
 ---
@@ -170,6 +172,6 @@ A 41-image hold-out test set (collected from publicly available videos, case rep
 
 ---
 
-[Code and Dataset (GitHub — NDBD)](https://github.com/saadalif06BUET/NDBD)
+[Code and Dataset (GitHub — NDBD)](https://github.com/saadalifazaman/NDBD)
 
 *Note: The SSRN preprint reflects an earlier version of this manuscript. The submitted version contains updated methodology, results, and analysis.*
