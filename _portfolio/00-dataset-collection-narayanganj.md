@@ -49,7 +49,7 @@ No usable public dataset existed for this domain. Building one was a prerequisit
 The dataset captures six representative scene types:
 
 ![NDBD sample annotations](/images/ndbd-sample-annotations.jpg)
-*Representative scenes from the NDBD dataset (from associated preprint, Fig. 2)*
+*Representative scenes from the NDBD dataset*
 
 - **(a)** Contextual daylight view without human presence
 - **(b)** Submerged ship-hull biofouling
