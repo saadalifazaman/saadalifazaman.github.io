@@ -14,7 +14,7 @@ collection: portfolio
 
 ## Background and Motivation
 
-Biofouling and corrosion on ship hulls increase hull roughness, raising frictional resistance and consequently fuel consumption and CO₂ emissions. Periodic hull cleaning has been shown to reduce daily fuel consumption by approximately 9–17% (Adland et al., 2018). The overall cost associated with hull fouling for a single naval vessel class is estimated at USD 56 million per year, or USD 1 billion over 15 years (Schultz et al., cited in Notti et al., 2019). Conventional maintenance relies on human visual inspection at drydock a labor-intensive, time-consuming, subjective, and expensive procedure.
+Biofouling and corrosion on ship hulls increase hull roughness, raising frictional resistance and consequently fuel consumption and CO₂ emissions. Periodic hull cleaning has been shown to reduce daily fuel consumption by approximately 9–17% ([Adland et al., 2018](https://doi.org/10.1016/j.jclepro.2017.12.247)). The overall cost associated with hull fouling for a single naval vessel class is estimated at USD 56 million per year, or USD 1 billion over 15 years (Schultz et al., cited in [Notti et al., 2019](https://doi.org/10.1016/j.oceaneng.2019.106233)). Conventional maintenance relies on human visual inspection at drydock a labor-intensive, time-consuming, subjective, and expensive procedure.
 
 At the time of this study, no publicly available deep learning model existed for the simultaneous automated detection of both biofouling and corrosion. Furthermore, no accessible large-scale image dataset was available that represented Bangladesh's unique dockyard environment (fouling organism diversity and hull conditions differ from those found in publicly available datasets collected elsewhere).
 
@@ -40,18 +40,18 @@ Two data sources were combined:
 - Split: 27 images (77%) training, 8 images (23%) test
 
 **Corrosion images — public dataset:**
-- Downloaded from the GitHub repository `beric7/corrosion_cs_classification` (bridge inspection corrosion dataset)
+- Downloaded from the GitHub repository [beric7/corrosion_cs_classification](https://github.com/beric7/corrosion_cs_classification) (bridge inspection corrosion dataset)
 - Total: 440 images across three corrosion severity classes: Fair Steel Corrosion, Poor Steel Corrosion, Severe Steel Corrosion
 - Split: 396 images (90%) training, 44 images (10%) test
 
 **Annotation pipeline for fouling images:**
 - Manual polygon annotation using [CVAT (Computer Vision Annotation Tool)](https://cvat.ai) a free, open-source, web-based annotation platform
-- CVAT does not natively export to YOLOv8 segmentation format; annotated images were downloaded in segmentation mask 1.1 format, then converted to YOLOv8 `.txt` format using the `masks_to_polygons.py` script from the `computervisioneng/image-segmentation-yolov8` repository
+- CVAT does not natively export to YOLOv8 segmentation format; annotated images were downloaded in segmentation mask 1.1 format, then converted to YOLOv8 `.txt` format using the `masks_to_polygons.py` script from the [computervisioneng/image-segmentation-yolov8](https://github.com/computervisioneng/image-segmentation-yolov8) repository
 
 **Annotation pipeline for corrosion images:**
 - The public corrosion dataset was pre-annotated using Labelme software
-- Converted from Labelme JSON format to YOLO format using the `natepolizogo/labelme2yolo` conversion tool
-
+- Converted from Labelme JSON format to YOLO format using the [natepolizogo/labelme2yolo](https://github.com/natepolizogo/labelme2yolo) conversion tool
+  
 **dataset.yaml classes (nc: 4):**  
 `Fair_Steel_Corrosion`, `Poor_Steel_Corrosion`, `Severe_Steel_Corrosion`, `Fouling`
 
@@ -59,9 +59,9 @@ Two data sources were combined:
 
 ## Model: YOLOv8
 
-YOLOv8 (Ultralytics, 2023) was selected as the primary architecture for its anchor-free detection head (reducing box predictions and improving performance on irregular fouling shapes), CSPDarknet53 backbone with C2f modules for multi-scale feature integration, FPN neck with SPPF for contextual feature capture across scales, and COCO-pretrained weights enabling transfer learning to reduce underfitting risk on the small dataset. All five segmentation variants were evaluated: YOLOv8n-seg through YOLOv8x-seg.
+**YOLOv8** ([Ultralytics, 2023](https://docs.ultralytics.com/models/yolov8/)) was selected as the primary architecture for its anchor-free detection head (reducing box predictions and improving performance on irregular fouling shapes), CSPDarknet53 backbone with C2f modules for multi-scale feature integration, FPN neck with SPPF for contextual feature capture across scales, and COCO-pretrained weights enabling transfer learning to reduce underfitting risk on the small dataset. All five segmentation variants were evaluated: YOLOv8n-seg through YOLOv8x-seg.
 
-Training was conducted on **Google Colab** and **Kaggle** (GPU-accelerated). Google Colab's free tier could not accommodate combined fouling+corrosion training due to session time limits; Kaggle (limited to 30 GPU-hours/week) enabled joint training from 500 to 1000 epochs.
+Training was conducted on [Google Colab](https://colab.research.google.com) and [Kaggle](https://www.kaggle.com) (GPU-accelerated). Google Colab's free tier could not accommodate combined fouling+corrosion training due to session time limits; Kaggle (limited to 30 GPU-hours/week) enabled joint training from 500 to 1000 epochs.
 
 ---
 
