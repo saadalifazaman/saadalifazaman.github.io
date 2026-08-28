@@ -25,6 +25,9 @@ Without a metric to quantify whether two augmentations together outperform or un
 
 ## What We Built
 
+![Study workflow](../images/ie-metric-fig1-workflow.png)
+*Figure 1: Complete experimental pipeline from dataset collection through k–n Fold ACV and IE analysis to cross-architecture validation.*
+
 This study presents a data-scarce industrial vision framework built around three contributions:
 
 ### 1. Interaction-Effect (IE) Metric
@@ -38,6 +41,9 @@ Where:
 - **SE** = Single Effect of each individual augmentation
 
 A **positive IE** indicates the ordered pair produces performance exceeding the arithmetic mean of its individual effects (synergistic). A **negative IE** indicates the pair performs below the arithmetic mean of its individual effects, though it may still exceed the performance of either augmentation applied alone. This additive null hypothesis reflects the fact that both augmentations are applied to the same training image — their combined effect **replaces** rather than accumulates their individual contributions.
+
+![IE heatmap](../images/ie-metric-fig6-heatmap.png)
+*Figure 6: Interaction Effect heatmap across all 110 ordered augmentation pairs. Warmer colors (red) indicate synergistic pairs; cooler colors (blue) indicate antagonistic combinations.*
 
 ### 2. k–n Fold Augmentation Cross-Validation (ACV) Protocol
 
@@ -119,12 +125,18 @@ Geometric augmentations (Rotation ±15°, Crop, Shear) consistently achieved the
 
 The **best ordered pair (Saturation → Rotation ±15°) outperforms the best single augmentation by +13.7%** absolute, achieved through sequencing decisions alone, no architectural modification, no additional inference-time cost.
 
+![Performance comparison](../images/ie-metric-fig7-results.png)
+*Figure 7: Mask mAP50–95 across baseline, top single augmentations, and top ordered pairs (mean ± SD, 3 seeds, YOLOv8m-seg).*
+
 ### Order Sensitivity
 
 Augmentation order demonstrably matters. For example:
 - **Crop → Rotation ±15°** yields Mask mAP50–95 = 0.509 ± 0.007 (+45.3%), whereas reversing to **Rotation → Crop** drops it to 0.499 ± 0.010 (+42.3%)
 - **Saturation → Exposure** achieves 0.479 ± 0.003 (+36.9%), while the reverse **Exposure → Saturation** degrades to 0.471 ± 0.014 (+34.6%)
 - Rotation-first sequences increase **precision** (stricter boundary consistency); photometric-first sequences improve **recall** (contextual completeness) — enabling intentional precision-recall trade-offs through pipeline design without changing the model
+
+![Qualitative results](../images/ie-metric-fig9-qualitative.png)
+*Figure 9: Instance segmentation on validation hull images under three conditions — no augmentation (baseline), best single augmentation (Rotation ±15°), and best ordered pair (Saturation → Rotation ±15°).*
 
 ### Cross-Architecture Validation
 
