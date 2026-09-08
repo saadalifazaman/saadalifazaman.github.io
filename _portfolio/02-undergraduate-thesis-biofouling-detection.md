@@ -147,6 +147,10 @@ For corrosion, Fair and Poor Steel Corrosion are detected reasonably well; Sever
 ![Corrosion detection — raw, ground truth, model prediction](/images/Model’s-Prediction-for-Corrosion-images.jpg)
 *Raw images, ground truth masks, and model predictions for multi-class corrosion detection (Case 06, YOLOv8l). Classes shown: Fair Steel Corrosion (yellow), Poor Steel Corrosion (blue), Severe Steel Corrosion (red). Corrosion detection performance is lower than fouling — partly attributable to labeling inconsistencies in the public corrosion dataset.*
 
+To assess generalizability beyond the training distribution, the trained model (YOLOv8l-seg, Case 06) was informally evaluated on a publicly available YouTube 
+video. The video shows a boat hull biofouling from a different geographic region. This constitutes an out of distribution test. We trained the model exclusively on 27 images from a Bangladeshi dockyard. But the detection results on foreign hull footage suggest reasonable generalization to unseen fouling patterns and hull surfaces. This informal evaluation is not a substitute for rigorous held-out testing, but it provides qualitative evidence that the learned 
+features are not entirely dataset specific.
+[View the YouTube video used for this evaluation](https://youtu.be/xU2kT1hUNtU?si=wSKFve9ZNskFCzYI)
 <video width="100%" controls>
   <source src="/assets/media1.mp4" type="video/mp4">
 </video>
