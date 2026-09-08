@@ -131,7 +131,7 @@ Seven configurations were tested progressively, varying dataset composition, mod
 The trained model (Case 06) produces reliable fouling segmentation masks under varied hull conditions. For corrosion, Fair and Poor Steel Corrosion are detected reasonably well; Severe Steel Corrosion presents the greatest challenge, muddy surfaces and low-contrast textures, are sources of false positives.
 
 <video width="100%" controls>
-  <source src="../assets/your-video.mp4" type="video/mp4">
+  <source src="/assets/media1.mp4" type="video/mp4">
 </video>
 
 > *Upload Figures 3.10 and 3.11 from your thesis to `images/` and replace this block:*  
