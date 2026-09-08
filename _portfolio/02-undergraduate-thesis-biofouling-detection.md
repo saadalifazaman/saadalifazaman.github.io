@@ -14,9 +14,26 @@ collection: portfolio
 
 ## Background and Motivation
 
-Biofouling and corrosion on ship hulls increase hull roughness, raising frictional resistance and consequently fuel consumption and CO₂ emissions. Periodic hull cleaning has been shown to reduce daily fuel consumption by approximately 9–17% ([Adland et al., 2018](https://doi.org/10.1016/j.jclepro.2017.12.247)). The overall cost associated with hull fouling for a single naval vessel class is estimated at USD 56 million per year, or USD 1 billion over 15 years (Schultz et al., cited in [Notti et al., 2019](https://doi.org/10.1016/j.oceaneng.2019.106233)). Conventional maintenance relies on human visual inspection at drydock a labor-intensive, time-consuming, subjective, and expensive procedure.
+Marine biofouling is the accumulation of organisms such as barnacles, algae, and microbial slime on ship hulls. This is one of the most persistent and costly challenges in maritime operations. As fouling organisms colonize the hull surface, they increase roughness and frictional resistance, forcing vessels to consume more fuel to maintain speed. Even a thin slime layer covering half the underwater hull can intensify greenhouse gas emissions by approximately 25%
+(GloFouling, 2022), and heavy fouling growth can raise fuel consumption by as much as 40% ([Wu et al., 2022](https://www.sciencedirect.com/science/article/abs/pii/S0029801825036704)). Steel corrosion compounds the problem further. If corrosion is left untreated, it degrades structural integrity independently of fouling, accelerating the need for costly drydocking.
 
-At the time of this study, no publicly available deep learning model existed for the simultaneous automated detection of both biofouling and corrosion. Furthermore, no accessible large-scale image dataset was available that represented Bangladesh's unique dockyard environment (fouling organism diversity and hull conditions differ from those found in publicly available datasets collected elsewhere).
+The economic scale of this problem is significant. The overall cost associated with hull fouling for a single naval vessel class has been estimated at USD 56 million per year or USD 1 billion over 15 years (Schultz et al.,[*Biofouling*, 2011](https://doi.org/10.1080/08927014.2010.542809)). For commercial
+shipping, a fouled hull can cost a company several million dollars per drydocking period, primarily through increased fuel expenditure and hull maintenance
+(Wu et al., 2022). Periodic hull cleaning has been shown to reduce daily fuel consumption by approximately 9–17%, with drydock cleaning yielding greater
+reductions than underwater cleaning ([Adland et al., 2018](https://doi.org/10.1016/j.jclepro.2017.12.247)).
+
+Early detection of fouling and corrosion is therefore desirable, before hull performance is significantly affected. The conventional response is periodic
+drydock inspection. This requires trained personnel to visually assess hull condition and prescribe cleaning or repainting. But this approach is labor-intensive, time-consuming, subjective, and expensive. Traditional survey methods also rely on diver inspections in underwater settings, which are hazardous and inherently limited in scalability. By the time a scheduled inspection occurs, fuel penalties from accumulated fouling have already been paid for weeks or months.
+
+Automated computer vision offers a path toward condition based maintenance, rather than schedule based maintenance. If a model can reliably detect and localize fouling and corrosion from hull images, inspection frequency can increase, cleaning decisions become quantifiable, and the subjectivity of human visual assessment is reduced. However, two practical obstacles made this non-trivial at the time of this study.
+
+First, no publicly available deep learning model existed for the simultaneous detection of both biofouling and corrosion. Prior work addressed either fouling
+severity classification on large expert labeled datasets or corrosion detection in industrial settings. But not both classes together in a unified segmentation
+framework applicable to drydock inspection.
+
+Second, no suitable training dataset existed for Bangladesh's dockyard environment. Fouling community composition, hull paint types, lighting conditions, and inspection geometry in Bangladeshi dockyards differ meaningfully from datasets collected in European or controlled laboratory settings. Training on mismatched data would produce a model that generalizes poorly to the actual deployment environment.
+
+This thesis addresses both gaps. Building a domain-specific dataset through direct field collection at Narayanganj Dockyard, Bangladesh, then training and evaluating YOLOv8 instance segmentation variants to detect both fouling and corrosion under real drydock conditions.
 
 ---
 
@@ -112,6 +129,10 @@ Seven configurations were tested progressively, varying dataset composition, mod
 ## Qualitative Results
 
 The trained model (Case 06) produces reliable fouling segmentation masks under varied hull conditions. For corrosion, Fair and Poor Steel Corrosion are detected reasonably well; Severe Steel Corrosion presents the greatest challenge, muddy surfaces and low-contrast textures, are sources of false positives.
+
+<video width="100%" controls>
+  <source src="../assets/your-video.mp4" type="video/mp4">
+</video>
 
 > *Upload Figures 3.10 and 3.11 from your thesis to `images/` and replace this block:*  
 > `![Fouling - raw, ground truth, prediction](../images/thesis-fig310-fouling-results.jpg)`  
