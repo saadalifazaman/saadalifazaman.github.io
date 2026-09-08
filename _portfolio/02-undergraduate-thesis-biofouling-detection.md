@@ -51,12 +51,12 @@ This thesis addresses both gaps. Building a domain-specific dataset through dire
 
 Two data sources were combined:
 
-**Fouling images — self-collected:**
+**Fouling images (self-collected):**
 - A total of 35 usable fouling images were collected from Dockyard & Engineering Works Ltd., Narayanganj, Bangladesh
 - Images captured at various angles, lighting conditions, times of day, and backgrounds to maximize diversity
-- Split: 27 images (77%) training, 8 images (23%) test
+- Split: 27 images (77%) training, 8 images (23%) test  
 
-**Corrosion images — public dataset:**
+**Corrosion images (public dataset):**
 - Downloaded from the GitHub repository [beric7/corrosion_cs_classification](https://github.com/beric7/corrosion_cs_classification) (bridge inspection corrosion dataset)
 - Total: 440 images across three corrosion severity classes: Fair Steel Corrosion, Poor Steel Corrosion, Severe Steel Corrosion
 - Split: 396 images (90%) training, 44 images (10%) test
@@ -64,10 +64,14 @@ Two data sources were combined:
 **Annotation pipeline for fouling images:**
 - Manual polygon annotation using [CVAT (Computer Vision Annotation Tool)](https://cvat.ai) a free, open-source, web-based annotation platform
 - CVAT does not natively export to YOLOv8 segmentation format; annotated images were downloaded in segmentation mask 1.1 format, then converted to YOLOv8 `.txt` format using the `masks_to_polygons.py` script from the [computervisioneng/image-segmentation-yolov8](https://github.com/computervisioneng/image-segmentation-yolov8) repository
+![Raw fouling images and ground truth annotations](/images/fouling-groundtruth.jpg)
+*Raw hull images collected at Narayanganj Dockyard alongside their manually annotated ground truth segmentation masks. Green overlay indicates fouling regions.*
 
 **Annotation pipeline for corrosion images:**
 - The public corrosion dataset was pre-annotated using Labelme software
 - Converted from Labelme JSON format to YOLO format using the [natepolizogo/labelme2yolo](https://github.com/natepolizogo/labelme2yolo) conversion tool
+![Raw fouling images and ground truth annotations](/images/ground-truths-of-Corrosion-images.jpg)
+*Raw hull images collected at Narayanganj Dockyard alongside their manually annotated ground truth segmentation masks. Green overlay indicates fouling regions.*
   
 **dataset.yaml classes (nc: 4):**  
 The model was configured to detect four classes: three corrosion severity levels
@@ -114,7 +118,12 @@ factor influenced detection performance. Seven representative cases are presente
 | **YOLOv8l-seg** | **0.90** | **0.680** |
 | YOLOv8x-seg | 0.85 | 0.724 |
 
-**YOLOv8l-seg achieved the best fouling detection F1 of 0.90 at confidence 0.68.** Although, YOLOv8x-seg being the largest variant (71.8M parameters, 344.1B FLOPs), does not surpass YOLOv8l. This is likely because of YOLOv8x-seg's additional capacity becomes a liability when training on only 27 images, causing mild overfitting.
+**YOLOv8l-seg achieved the best fouling detection F1 of 0.90 at confidence 0.68.** 
+![F1-Confidence curve — YOLOv8l-seg fouling detection](/images/F1-Confidence-curve-across-varying-confidence-levels-of-YOLOv8l.jpg)
+*F1-Confidence curve for YOLOv8l-seg trained on 27 fouling images (500 epochs). Peak F1 of 0.90 is achieved at confidence threshold 0.68. Adjusting confidence either lower or higher than this threshold reduces the F1 score, confirming 0.68 as the optimal operating point.*
+
+Although, YOLOv8x-seg being the largest variant (71.8M parameters, 344.1B FLOPs), does not surpass YOLOv8l. This is likely because of YOLOv8x-seg's additional capacity becomes a liability when training on only 27 images, causing mild overfitting.
+
 
 ### Findings across all seven cases
 
@@ -130,18 +139,17 @@ factor influenced detection performance. Seven representative cases are presente
 
 ## Qualitative Results
 
-The trained model (Case 06) produces reliable fouling segmentation masks under varied hull conditions. For corrosion, Fair and Poor Steel Corrosion are detected reasonably well; Severe Steel Corrosion presents the greatest challenge, muddy surfaces and low-contrast textures, are sources of false positives.
+The trained model (Case 06) produces reliable fouling segmentation masks under varied hull conditions. 
+![Fouling detection — raw, ground truth, model prediction](/images/Model’s-Prediction-for-fouling-images.jpg)
+*Raw hull images, ground truth masks, and model predictions for fouling detection (Case 06, YOLOv8l, 500 epochs). The model reliably localizes fouling regions across varying hull surfaces, backgrounds, and human occlusion conditions.*
+
+For corrosion, Fair and Poor Steel Corrosion are detected reasonably well; Severe Steel Corrosion presents the greatest challenge, muddy surfaces and low-contrast textures, are sources of false positives.
+![Corrosion detection — raw, ground truth, model prediction](/images/Model’s-Prediction-for-Corrosion-images.jpg)
+*Raw images, ground truth masks, and model predictions for multi-class corrosion detection (Case 06, YOLOv8l). Classes shown: Fair Steel Corrosion (yellow), Poor Steel Corrosion (blue), Severe Steel Corrosion (red). Corrosion detection performance is lower than fouling — partly attributable to labeling inconsistencies in the public corrosion dataset.*
 
 <video width="100%" controls>
   <source src="/assets/media1.mp4" type="video/mp4">
 </video>
-
-> *Upload Figures 3.10 and 3.11 from your thesis to `images/` and replace this block:*  
-> `![Fouling - raw, ground truth, prediction](../images/thesis-fig310-fouling-results.jpg)`  
-> `*Raw images, ground truth masks, and model predictions for fouling detection (Case 06, YOLOv8l)*`  
->  
-> `![Corrosion - raw, ground truth, prediction](../images/thesis-fig311-corrosion-results.jpg)`  
-> `*Raw images, ground truth masks, and model predictions for Fair, Poor, and Severe Steel Corrosion (Case 06, YOLOv8l)*`
 
 ---
 
