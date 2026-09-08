@@ -8,7 +8,7 @@ collection: portfolio
 **Role:** Undergraduate Thesis: NAME 400 Project and Thesis (June 2023 – July 2024)  
 **Supervisor:** Dr. Kazi Naimul Hoque, Assistant Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
 **Collaborator:** Ashraful Alam Suny  
-**Funding:** Research and Innovation Centre for Science and Engineering (RISE), BUET  
+**Funding:** [Research and Innovation Centre for Science and Engineering (RISE), BUET](https://rise.buet.ac.bd)  
 **Submitted:** June 2024, in partial fulfillment of the B.Sc. in Naval Architecture and Marine Engineering
 
 ---
@@ -18,7 +18,7 @@ collection: portfolio
 Marine biofouling is the accumulation of organisms such as barnacles, algae, and microbial slime on ship hulls. This is one of the most persistent and costly challenges in maritime operations. As fouling organisms colonize the hull surface, they increase roughness and frictional resistance, forcing vessels to consume more fuel to maintain speed. Even a thin slime layer covering half the underwater hull can intensify greenhouse gas emissions by approximately 25%
 (GloFouling, 2022), and heavy fouling growth can raise fuel consumption by as much as 40% ([Wu et al., 2022](https://www.sciencedirect.com/science/article/abs/pii/S0029801825036704)). Steel corrosion compounds the problem further. If corrosion is left untreated, it degrades structural integrity independently of fouling, accelerating the need for costly drydocking.
 
-The economic scale of this problem is significant. The overall cost associated with hull fouling for a single naval vessel class has been estimated at USD 56 million per year or USD 1 billion over 15 years (Schultz et al.,[*Biofouling*, 2011](https://doi.org/10.1080/08927014.2010.542809)). For commercial
+The economic scale of this problem is significant. The overall cost associated with hull fouling for a single naval vessel class has been estimated at USD 56 million per year or USD 1 billion over 15 years ([Schultz et al., 2011](https://doi.org/10.1080/08927014.2010.542809)). For commercial
 shipping, a fouled hull can cost a company several million dollars per drydocking period, primarily through increased fuel expenditure and hull maintenance
 (Wu et al., 2022). Periodic hull cleaning has been shown to reduce daily fuel consumption by approximately 9–17%, with drydock cleaning yielding greater
 reductions than underwater cleaning ([Adland et al., 2018](https://doi.org/10.1016/j.jclepro.2017.12.247)).
@@ -52,8 +52,7 @@ This thesis addresses both gaps. Building a domain-specific dataset through dire
 Two data sources were combined:
 
 **Fouling images — self-collected:**
-- A total of 36 images were collected from Dockyard & Engineering Works Ltd., Narayanganj, Bangladesh
-- 35 images contained a clear presence of fouling; 1 contained an aerial view of the site and was excluded from training
+- A total of 35 usable fouling images were collected from Dockyard & Engineering Works Ltd., Narayanganj, Bangladesh
 - Images captured at various angles, lighting conditions, times of day, and backgrounds to maximize diversity
 - Split: 27 images (77%) training, 8 images (23%) test
 
@@ -71,7 +70,8 @@ Two data sources were combined:
 - Converted from Labelme JSON format to YOLO format using the [natepolizogo/labelme2yolo](https://github.com/natepolizogo/labelme2yolo) conversion tool
   
 **dataset.yaml classes (nc: 4):**  
-`Fair_Steel_Corrosion`, `Poor_Steel_Corrosion`, `Severe_Steel_Corrosion`, `Fouling`
+The model was configured to detect four classes: three corrosion severity levels
+(Fair, Poor, and Severe Steel Corrosion) and one fouling class.
 
 ---
 
@@ -85,7 +85,8 @@ Training was conducted on [Google Colab](https://colab.research.google.com) and 
 
 ## Experimental Cases
 
-Seven configurations were tested progressively, varying dataset composition, model size, and epoch count:
+Training was conducted iteratively across multiple configurations; varying dataset composition, model size, and number of training epochs to understand how each
+factor influenced detection performance. Seven representative cases are presented here to illustrate the key trends observed across the full set of experiments:
 
 | Case | Dataset | Model | Epochs | All-Class F1 (peak) |
 |---|---|---|---|---|
@@ -113,7 +114,7 @@ Seven configurations were tested progressively, varying dataset composition, mod
 | **YOLOv8l-seg** | **0.90** | **0.680** |
 | YOLOv8x-seg | 0.85 | 0.724 |
 
-**YOLOv8l-seg achieved the best fouling detection F1 of 0.90 at confidence 0.68.** The larger YOLOv8x-seg (71.8M parameters) does not surpass it, likely due to mild overfitting on only 27 training images, a direct illustration of the small-data problem that motivated the subsequent RA research.
+**YOLOv8l-seg achieved the best fouling detection F1 of 0.90 at confidence 0.68.** Although, YOLOv8x-seg being the largest variant (71.8M parameters, 344.1B FLOPs), does not surpass YOLOv8l. This is likely because of YOLOv8x-seg's additional capacity becomes a liability when training on only 27 images, causing mild overfitting.
 
 ### Findings across all seven cases
 
@@ -157,10 +158,11 @@ The trained model (Case 06) produces reliable fouling segmentation masks under v
 
 ## What This Led To
 
-Two gaps identified here directly shaped the subsequent RA research:
+The overfitting pattern where a larger model underperforms a smaller one simply because the dataset is too small to support it. This was the clearest signal that not model architecture, but data scarcity was the binding constraint. Addressing that constraint through principled augmentation design became the focus of the
+subsequent RA research. So, the two gaps identified here directly shaped the subsequent RA research:
 
-**Data scarcity** — with only 27 usable fouling training images, the core constraint was not the model but the data. If more field images are not obtainable, can augmentation be made as principled and effective as possible?
+**Data scarcity:** with only 27 usable fouling training images, the core constraint was not the model but the data. If more field images are not obtainable, can augmentation be made as principled and effective as possible?
 
-**No augmentation framework** — augmentation was applied informally; there was no method to determine which augmentations to use, in what order, or how pairs of augmentations interact. The follow-on RA work addressed this directly through the Interaction-Effect metric and k–n Fold ACV protocol.
+**No augmentation framework:** augmentation was applied informally; there was no method to determine which augmentations to use, in what order, or how pairs of augmentations interact. The follow-on RA work addressed this directly through the Interaction-Effect metric and k–n Fold ACV protocol.
 
 The 35 fouling images collected for this thesis became the core of the NDBD dataset used in the RA-level research. See the [Dataset Collection entry](/portfolio/00-dataset-collection-narayanganj/) and the [RA Research entry](/portfolio/01-research-assistant-biofouling-IE-metric/) for those contributions.
