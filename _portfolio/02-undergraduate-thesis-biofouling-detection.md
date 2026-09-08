@@ -3,6 +3,9 @@ title: "Biofouling & Corrosion Identification System Using Deep Learning"
 excerpt: "Built a real-time hull inspection prototype using YOLOv8 segmentation variants on a self-collected fouling dataset and a public corrosion dataset. Achieving fouling detection F1 of 0.90 at confidence 0.68, with qualitative validation on both fouling and multi-class corrosion detection. Funded by RISE, BUET."
 collection: portfolio
 ---
+<video width="100%" controls>
+  <source src="/assets/media1.mp4" type="video/mp4">
+</video>
 
 **Role:** Undergraduate Thesis: NAME 400 Project and Thesis (June 2023 – July 2024)  
 **Supervisor:** Dr. Kazi Naimul Hoque, Assistant Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
