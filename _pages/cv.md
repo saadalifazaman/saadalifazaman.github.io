@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[**Download CV (PDF)**](/files/Saad_Alif_Zaman_CV.pdf)
+
 Education
 ======
 * B.Sc. in Naval Architecture and Marine Engineering, Bangladesh University of Engineering and Technology (BUET), 2024
@@ -37,13 +39,15 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Teaching & Mentoring
+Work Experience & Teaching
 ======
+* **Materials Development Instructor**, Udvash Academic & Admission Care, Dhaka (April–August 2025)
+  * Developed and reviewed assessment materials for SSC, HSC, and university admission examinations; evaluated question quality and curriculum alignment; contributed to model-test preparation.
+
 * **Academic Mentor — Mathematics & Physics** (2019–Present)
   * Provided one-to-one and small-batch instruction to secondary and higher-secondary students (Bangla- and English-medium curricula), from foundational concepts through advanced problem-solving. Multiple students subsequently admitted to BUET, KUET, DU, and IUT.
 
-* **Materials Development Instructor**, Udvash Academic & Admission Care, Dhaka (April–August 2025)
-  * Developed and reviewed assessment materials for SSC, HSC, and university admission examinations; evaluated question quality and curriculum alignment; contributed to model-test preparation.
+* **Industrial Internship — Shipyard Practice**, Khulna Shipyard Limited, Khulna (October–November 2022)
 
 Skills
 ======
@@ -52,10 +56,17 @@ Skills
 * **Data Annotation & Processing:** CVAT, Roboflow, LabelImg
 * **CAD / FEA:** AutoCAD, Rhino, Abaqus
 * **Research Computing:** Google Colab, Kaggle
+* **Document Preparation:** LaTeX, Microsoft Office
 
 Grants & Scholarships
 ======
-* RISE Student Research Grant, 2023
-* SPARRSO Research Fellowship Program 2025–26 (shortlisted, final round)
-* University Stipend Scholarship, BUET (2019, 2020, 2021)
-* Rajshahi Board Scholarship, HSC 2018
+* **RISE Student Research Grant, 2023** — Awarded a competitive Student Research Grant (BDT 65,790) by the Research and Innovation center for Science and Engineering (RISE) for "Developing a biofouling & corrosion identification and distribution system using video images based on deep learning."
+
+<figure style="max-width: 420px; margin: 0.5em 0 1.5em 0;">
+  <img src="/images/certificates/rise-grant-certificate.jpg" alt="RISE Student Research Grant Certificate, 2023" style="width: 100%; border: 1px solid #ddd; border-radius: 4px;">
+  <figcaption style="font-size: 0.85em; color: #666; margin-top: 0.4em;">RISE Student Research Grant certificate, 2023</figcaption>
+</figure>
+
+* **SPARRSO Research Fellowship Program, 2025–26** — Shortlisted for the final round; proposal: "Development of a Fixed-Wing VTOL Quad Plane for Flood Monitoring & Disaster Response."
+* **University Stipend Scholarship**, BUET (2019, 2020, 2021)
+* **Rajshahi Board Scholarship**, HSC 2018
