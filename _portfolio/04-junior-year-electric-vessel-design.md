@@ -18,7 +18,7 @@ collection: portfolio
 ### Project Poster
 
 <figure style="max-width: 500px; margin: 1.5em 0;">
-  <img src="/images/fieldwork/name338-poster.jpg" alt="NAME 338 poster: Inland 100 Passenger Electric Ship" style="width: 100%; border: 1px solid #ddd; border-radius: 4px;">
+  <img src="/images/name338-poster.jpg" alt="NAME 338 poster: Inland 100 Passenger Electric Ship" style="width: 100%; border: 1px solid #ddd; border-radius: 4px;">
   <figcaption style="font-size: 0.85em; color: #666; margin-top: 0.4em;">Poster presented for the NAME 338 design project</figcaption>
 </figure>
 
