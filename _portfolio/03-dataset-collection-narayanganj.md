@@ -1,6 +1,6 @@
 ---
 title: "Field Data Collection and Annotation: Narayanganj Dockyard Biofouling Dataset (NDBD)"
-excerpt: "Independently collected and curated the first publicly available ship hull biofouling dataset from an active industrial dockyard in Bangladesh. 35 high-resolution images, 92 annotated instances, CC BY-NC 4.0 license, foundational to two subsequent research projects.<br/><img src='/images/ndbd-sample-annotations.jpg'>"
+excerpt: "Independently collected and curated the first publicly available ship hull biofouling dataset from an active industrial dockyard in Bangladesh. 35 high-resolution images, 92 annotated instances, CC BY-NC 4.0 license, foundational to two subsequent research projects.<br/><img src='/images/ndbd-sample-annotations.gif'>"
 collection: portfolio
 ---
 
