@@ -88,4 +88,4 @@ industrial computer vision under data-scarce conditions.
 
 [Dataset (GitHub — NDBD)](https://github.com/saadalifazaman/NDBD) | [Associated Preprint (SSRN)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5966947)
 
-*Note: The SSRN preprint reflects an earlier version of the manuscript. The submitted version contains updated methodology and results.*
+*Note: The SSRN preprint reflects an earlier draft. The current version, incorporating peer feedback from prior submissions, includes updated methodology and results.*
