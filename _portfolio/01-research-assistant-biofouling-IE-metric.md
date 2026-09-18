@@ -8,7 +8,7 @@ collection: portfolio
 **Supervisors:**  
 Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
 Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET  
-**Status:** Manuscript under review  
+**Status:** Manuscript in revision following peer review; preparing for resubmission.  
 **Code and Dataset:** [GitHub — NDBD](https://github.com/saadalifazaman/NDBD)
 
 ---
@@ -186,4 +186,4 @@ A 41-image hold-out test set (collected from publicly available videos, case rep
 
 [Code and Dataset (GitHub — NDBD)](https://github.com/saadalifazaman/NDBD)
 
-*Note: The SSRN preprint reflects an earlier version of this manuscript. The submitted version contains updated methodology, results, and analysis.*
+*Note: The SSRN preprint reflects an earlier draft. The current version, incorporating peer feedback from prior submissions, includes updated methodology, results, and analysis.*
