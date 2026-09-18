@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2026-01-01-biofouling-detection
 excerpt: 'Proposed a k–n Fold Augmentation Cross-Validation protocol and a novel Interaction-Effect metric quantifying order-sensitivity among data augmentations, validated on a newly curated ship-hull biofouling dataset across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN.'
 date: 2026-09-18
-venue: 'Preprint (in revision), 2026'
+venue: 'Preprint (in revision)'
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5966947'
 citation: 'Zaman, S. A., Hoque, K. N., &amp; Shuvo, S. B. (2026). &quot;Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection.&quot; Preprint; in revision following peer review.'
 ---
