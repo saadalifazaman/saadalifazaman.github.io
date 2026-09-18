@@ -20,5 +20,5 @@ There's a longer story behind how I ended up here, from an electric-vessel desig
 ## Research Interests
 - Computer vision for infrastructure & industrial inspection
 - Deep learning under data scarcity
-- AI-based monitoring for marine, environmental & structural systems
-- Applied perception for real-world deployment
+- Structural Health Monitoring (SHM) and Non-Destructive Evaluation (NDE) for marine and civil infrastructure
+- Applied perception for real-world, data-scarce deployment
