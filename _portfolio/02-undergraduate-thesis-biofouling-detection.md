@@ -7,7 +7,6 @@ collection: portfolio
 
 **Role:** Undergraduate Thesis: NAME 400 Project and Thesis (June 2023 – July 2024)  
 **Supervisor:** Dr. Kazi Naimul Hoque, Assistant Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
-**Collaborator:** Ashraful Alam Suny  
 **Funding:** [Research and Innovation Centre for Science and Engineering (RISE), BUET](https://rise.buet.ac.bd)  
 **Submitted:** June 2024, in partial fulfillment of the B.Sc. in Naval Architecture and Marine Engineering
 
