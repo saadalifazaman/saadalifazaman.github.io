@@ -68,7 +68,7 @@ Exhaustively evaluating all 110 ordered pairs from 11 augmentations with full k-
 
 ## Dataset
 
-Validated on the **Narayanganj Dockyard Biofouling Dataset (NDBD)**, a newly curated dataset of 35 high-resolution ship-hull images with 92 annotated biofouling instances. The dataset was collected from Dockyard & Engineering Works Ltd., Narayanganj, Bangladesh. This is the **first publicly available annotated dataset of dockyard hull surfaces under real operational conditions**. It included human occlusion, oblique angles, and variable illumination. See the [Dataset Collection portfolio entry](/portfolio/00-dataset-collection-narayanganj/) for full details.
+Validated on the **Narayanganj Dockyard Biofouling Dataset (NDBD)**, a newly curated dataset of 35 high-resolution ship-hull images with 92 annotated biofouling instances. The dataset was collected from Dockyard & Engineering Works Ltd., Narayanganj, Bangladesh. This is the **first publicly available annotated dataset of dockyard hull surfaces under real operational conditions**. It included human occlusion, oblique angles, and variable illumination. See the [Dataset Collection portfolio entry](/portfolio/03-dataset-collection-narayanganj/) for full details.
 
 ---
 
