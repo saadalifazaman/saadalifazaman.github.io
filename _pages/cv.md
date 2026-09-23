@@ -17,7 +17,8 @@ Education
   * Cumulative GPA: 3.37/4.00
 <h3>Relevant Coursework</h3>
 <p>Selected coursework directly relevant to my research, verified against 
-<a href="https://name.buet.ac.bd/undergraduate-courses" target="_blank">BUET's official undergraduate course catalog</a>:</p> Marine Maintenance and Repair, Welding Technology, Finite Element Methods, Numerical Computations, Computer Programming (C/C++, FORTRAN), Applied Statistics
+<a href="https://name.buet.ac.bd/undergraduate-courses" target="_blank">BUET's official undergraduate course catalog</a>:</p> 
+Marine Maintenance and Repair, Welding Technology, Finite Element Methods, Numerical Computations, Computer Programming (C/C++, FORTRAN), Applied Statistics
 <details>
   <summary style="cursor:pointer; color:#0645AD;">(click for course descriptions)</summary>
   <p><strong>Marine Maintenance and Repair (NAME 415):</strong> Maintenance requirements – 
@@ -80,13 +81,13 @@ Skills
 
 Grants & Scholarships
 ======
-* **RISE Student Research Grant, 2023** — Awarded a competitive Student Research Grant (BDT 65,790) by the Research and Innovation center for Science and Engineering (RISE) for "Developing a biofouling & corrosion identification and distribution system using video images based on deep learning."
+* **RISE Student Research Grant, 2023:** Awarded a competitive Student Research Grant (BDT 65,790) by the Research and Innovation center for Science and Engineering (RISE) for "Developing a biofouling & corrosion identification and distribution system using video images based on deep learning."
 
 <figure style="max-width: 420px; margin: 0.5em 0 1.5em 0;">
   <img src="/images/certificates/rise-grant-certificate.jpg" alt="RISE Student Research Grant Certificate, 2023" style="width: 100%; border: 1px solid #ddd; border-radius: 4px;">
   <figcaption style="font-size: 0.85em; color: #666; margin-top: 0.4em;">RISE Student Research Grant certificate, 2023</figcaption>
 </figure>
 
-* **SPARRSO Research Fellowship Program, 2025–26** — Shortlisted for the final round; proposal: "Development of a Fixed-Wing VTOL Quad Plane for Flood Monitoring & Disaster Response."
+* **SPARRSO Research Fellowship Program, 2025–26:** Shortlisted for the final round; proposal: "Development of a Fixed-Wing VTOL Quad Plane for Flood Monitoring & Disaster Response."
 * **University Stipend Scholarship**, BUET (2019, 2020, 2021)
 * **Rajshahi Board Scholarship**, HSC 2018
