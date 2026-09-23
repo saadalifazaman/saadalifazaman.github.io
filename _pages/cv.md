@@ -15,6 +15,34 @@ Education
 ======
 * B.Sc. in Naval Architecture and Marine Engineering, Bangladesh University of Engineering and Technology (BUET), 2024
   * Cumulative GPA: 3.37/4.00
+<h3>Relevant Coursework</h3>
+<p>Selected coursework directly relevant to my research, verified against 
+<a href="https://name.buet.ac.bd/undergraduate-courses" target="_blank">BUET's official undergraduate course catalog</a>:</p>
+
+<p><strong>Marine Maintenance and Repair (NAME 415)</strong><br>
+Maintenance requirements – corrosion, fatigue, marine fouling. Failure causes and repairs; 
+prevention and removal of marine growth; classification requirements of hull survey and defect 
+identification; welding inspection.</p>
+
+<p><strong>Welding Technology (NAME 345)</strong><br>
+Common defects in ship welding, non-destructive testing, inspection and testing of welded 
+specimens.</p>
+
+<p><strong>Finite Element Method for Ship Structure (NAME 371)</strong><br>
+Basic concept of finite element method (FEM) and its application to ship structure; isoparametric 
+elements; linear static analysis.</p>
+
+<p><strong>Numerical Computations Sessional (NAME 416)</strong><br>
+Interpolation methods, numerical differentiation and integration, regression analysis and curve 
+fitting applied to naval architecture problems.</p>
+
+<p><strong>Computer Programming in Ship Design I & II (NAME 336, NAME 436)</strong><br>
+FORTRAN 77/90 and C/C++ fundamentals, applied to hydrostatic, stability, and structural strength 
+computations for marine vehicles.</p>
+
+<p><strong>Statistics, Partial Differential Equations and Matrices (Math 283)</strong><br>
+Probability theory, distributions, sampling, estimation, hypothesis testing, and regression 
+analysis.</p>
 
 Research Experience
 ======
