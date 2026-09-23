@@ -18,7 +18,8 @@ I am looking to join a lab working on applied computer vision for infrastructure
 There's a longer story behind how I ended up here, from an electric-vessel design project to teaching myself deep learning to this line of research. [Read my full research statement →](/research-statement/)
 
 ## Research Interests
-- Computer vision for infrastructure & industrial inspection
-- Deep learning under data scarcity
+- Computer Vision for Industrial & Infrastructure Inspection
+- Deep Learning under Data Scarcity
+- Computer Vision for Civil & Infrastructure Engineering
 - Structural Health Monitoring (SHM) and Non-Destructive Evaluation (NDE) for marine and civil infrastructure
-- Applied perception for real-world, data-scarce deployment
+- Toward robotic and autonomous platforms for field inspection and environmental monitoring
