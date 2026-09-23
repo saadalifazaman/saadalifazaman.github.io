@@ -15,34 +15,26 @@ Education
 ======
 * B.Sc. in Naval Architecture and Marine Engineering, Bangladesh University of Engineering and Technology (BUET), 2024
   * Cumulative GPA: 3.37/4.00
-<h3>Relevant Coursework</h3>
-<p>Selected coursework directly relevant to my research, verified against 
-<a href="https://name.buet.ac.bd/undergraduate-courses" target="_blank">BUET's official undergraduate course catalog</a>:</p>
-
-<p><strong>Marine Maintenance and Repair (NAME 415)</strong><br>
-Maintenance requirements – corrosion, fatigue, marine fouling. Failure causes and repairs; 
-prevention and removal of marine growth; classification requirements of hull survey and defect 
-identification; welding inspection.</p>
-
-<p><strong>Welding Technology (NAME 345)</strong><br>
-Common defects in ship welding, non-destructive testing, inspection and testing of welded 
-specimens.</p>
-
-<p><strong>Finite Element Method for Ship Structure (NAME 371)</strong><br>
-Basic concept of finite element method (FEM) and its application to ship structure; isoparametric 
-elements; linear static analysis.</p>
-
-<p><strong>Numerical Computations Sessional (NAME 416)</strong><br>
-Interpolation methods, numerical differentiation and integration, regression analysis and curve 
-fitting applied to naval architecture problems.</p>
-
-<p><strong>Computer Programming in Ship Design I & II (NAME 336, NAME 436)</strong><br>
-FORTRAN 77/90 and C/C++ fundamentals, applied to hydrostatic, stability, and structural strength 
-computations for marine vehicles.</p>
-
-<p><strong>Statistics, Partial Differential Equations and Matrices (Math 283)</strong><br>
-Probability theory, distributions, sampling, estimation, hypothesis testing, and regression 
-analysis.</p>
+<p><strong>Relevant Coursework:</strong> Marine Maintenance and Repair, Welding Technology, 
+Finite Element Methods, Numerical Computations, Computer Programming (C/C++, FORTRAN), 
+Applied Statistics
+<details>
+  <summary style="cursor:pointer; color:#0645AD;">(click for course descriptions)</summary>
+  <p><strong>Marine Maintenance and Repair (NAME 415):</strong> Maintenance requirements – 
+  corrosion, fatigue, marine fouling. Prevention and removal of marine growth; classification 
+  requirements of hull survey and defect identification; welding inspection.</p>
+  <p><strong>Welding Technology (NAME 345):</strong> Common defects in ship welding, 
+  non-destructive testing, inspection and testing of welded specimens.</p>
+  <p><strong>Finite Element Methods (NAME 371):</strong> Application of FEM to ship structure; 
+  isoparametric elements; linear static analysis.</p>
+  <p><strong>Numerical Computations (NAME 416):</strong> Interpolation, numerical 
+  differentiation/integration, regression analysis and curve fitting.</p>
+  <p><strong>Computer Programming (NAME 336, 436):</strong> FORTRAN 77/90 and C/C++, applied to 
+  hydrostatic, stability, and structural strength computations.</p>
+  <p><strong>Applied Statistics (Math 283):</strong> Probability, distributions, estimation, 
+  hypothesis testing, regression analysis.</p>
+</details>
+</p>
 
 Research Experience
 ======
@@ -51,10 +43,11 @@ Research Experience
   * Supervisors: Dr. Kazi Naimul Hoque; Samiul Based Shuvo
   * Proposed a k–n Fold Augmentation Cross-Validation protocol and a novel Interaction-Effect metric quantifying order-sensitivity among data augmentations, validated on a newly curated 35-image ship-hull dataset across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN.
 
-* **Undergraduate Thesis**, BUET (June 2023–July 2024)
+* **Undergraduate Thesis**, BUET (June 2023–July 2024) Final Grade: A+ (4.00/4.00)
   * "Developing a biofouling & corrosion identification and distribution system using video images based on deep learning"
   * Supervisor: Dr. Kazi Naimul Hoque
-  * Curated a biofouling & corrosion dataset from Narayanganj Dockyard and trained YOLOv8 segmentation variants (fouling F1 up to 0.90), producing a real-time detection prototype for automated hull inspection.
+  * Collected and curated the Narayanganj Dockyard Biofouling Dataset (NDBD); 35 high-resolution hull images, 92 annotated instances, CC BY-NC 4.0 license, publicly available on GitHub. Then trained YOLOv8 segmentation variants (fouling F1 up to 0.90), producing a real-time detection prototype for automated 
+hull inspection. Funded by RISE Student Research Grant.
 
 * **Junior Year Project**, BUET (May 2022–May 2023)
   * "Designing an Inland 100 Passenger Ship for Inland Waterways of Bangladesh"
