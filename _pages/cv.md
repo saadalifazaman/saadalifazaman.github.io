@@ -34,7 +34,6 @@ Education
   <p><strong>Applied Statistics (Math 283):</strong> Probability, distributions, estimation, 
   hypothesis testing, regression analysis.</p>
 </details>
-</p>
 
 Research Experience
 ======
