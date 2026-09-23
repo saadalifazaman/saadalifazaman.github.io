@@ -75,8 +75,9 @@ Skills
 * **Programming:** Python, C, C++
 * **Deep Learning:** Ultralytics YOLO, Mask R-CNN, PyTorch, TensorFlow
 * **Data Annotation & Processing:** CVAT, Roboflow, LabelImg
-* **CAD / FEA:** AutoCAD, Rhino, Abaqus
 * **Research Computing:** Google Colab, Kaggle
+* **Visualization:** Matplotlib, Seaborn, PowerPoint
+* **CAD / FEA:** AutoCAD, Rhino, Abaqus
 * **Document Preparation:** LaTeX, Microsoft Office
 
 Grants & Scholarships
