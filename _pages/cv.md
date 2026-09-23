@@ -17,8 +17,7 @@ Education
   * Cumulative GPA: 3.37/4.00
 <h3>Relevant Coursework</h3>
 <p>Selected coursework directly relevant to my research, verified against 
-<a href="https://name.buet.ac.bd/undergraduate-courses" target="_blank">BUET's official undergraduate course catalog</a>:</p>
-Marine Maintenance and Repair, Welding Technology, Finite Element Methods, Numerical Computations, Computer Programming (C/C++, FORTRAN), Applied Statistics
+<a href="https://name.buet.ac.bd/undergraduate-courses" target="_blank">BUET's official undergraduate course catalog</a>:</p> Marine Maintenance and Repair, Welding Technology, Finite Element Methods, Numerical Computations, Computer Programming (C/C++, FORTRAN), Applied Statistics
 <details>
   <summary style="cursor:pointer; color:#0645AD;">(click for course descriptions)</summary>
   <p><strong>Marine Maintenance and Repair (NAME 415):</strong> Maintenance requirements – 
