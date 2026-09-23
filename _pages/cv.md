@@ -43,13 +43,13 @@ Research Experience
   * Supervisors: Dr. Kazi Naimul Hoque; Samiul Based Shuvo
   * Proposed a k–n Fold Augmentation Cross-Validation protocol and a novel Interaction-Effect metric quantifying order-sensitivity among data augmentations, validated on a newly curated 35-image ship-hull dataset across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN.
 
-* **Undergraduate Thesis**, BUET (June 2023–July 2024) Final Grade: A+ (4.00/4.00)
+* **Undergraduate Thesis**, BUET Final Grade: A+ (4.00/4.00) (June 2023–July 2024)
   * "Developing a biofouling & corrosion identification and distribution system using video images based on deep learning"
   * Supervisor: Dr. Kazi Naimul Hoque
   * Collected and curated the Narayanganj Dockyard Biofouling Dataset (NDBD); 35 high-resolution hull images, 92 annotated instances, CC BY-NC 4.0 license, publicly available on GitHub. Then trained YOLOv8 segmentation variants (fouling F1 up to 0.90), producing a real-time detection prototype for automated 
 hull inspection. Funded by RISE Student Research Grant.
 
-* **Junior Year Project**, BUET (May 2022–May 2023)
+* **Junior Year Project**, BUET Final Grade: A+ (4.00/4.00) (May 2022–May 2023)
   * "Designing an Inland 100 Passenger Ship for Inland Waterways of Bangladesh"
   * Supervisor: Dr. Md. Mashiur Rahaman
   * Designed a conceptual 100-passenger inland vessel with electric propulsion to reduce CO₂ emissions versus conventional diesel systems.
