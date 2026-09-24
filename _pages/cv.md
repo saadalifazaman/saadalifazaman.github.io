@@ -41,13 +41,12 @@ Research Experience
 * **Research Assistant**, Dept. of Naval Architecture and Marine Engineering, BUET (August 2025–Present)
   * "Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection"
   * Supervisors: Dr. Kazi Naimul Hoque; Samiul Based Shuvo
-  * Addressing a core bottleneck in applied computer vision, the lack of large labeled datasets in real world industrial settings, we proposed a k–n Fold Augmentation Cross Validation (k–n Fold ACV) protocol, together with a novel Interaction Effect (IE) Metric that quantifies order sensitivity among data augmentations. The framework was validated on a newly curated [NDBD](https://github.com/saadalifazaman/NDBD) dataset of 35 high resolution ship hull images containing diverse biofouling patterns with 92 annotated instances. Eleven domain specific augmentations and 110 pairwise combinations were analyzed using YOLOv8m-seg as the base model, with cross validation across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN. The [code](https://github.com/saadalifazaman/NDBD/blob/main/5-1%20Fold%20ACV%20for%20YOLOv8m-seg.ipynb) and dataset are publicly available.
+  * Addressing a core bottleneck in applied computer vision, the lack of large labeled datasets in real world industrial settings, we proposed a k–n Fold Augmentation Cross Validation (k–n Fold ACV) protocol, together with a novel Interaction Effect (IE) Metric that quantifies order sensitivity among data augmentations. The framework was validated on a newly curated [NDBD](https://github.com/saadalifazaman/NDBD) dataset of 35 high resolution ship hull images containing diverse biofouling patterns with 92 annotated instances. Eleven domain specific augmentations and 110 pairwise combinations were analyzed using YOLOv8m-seg as the base model, with cross validation across YOLO11m-seg, and Mask R-CNN. The [code](https://github.com/saadalifazaman/NDBD/blob/main/5-1%20Fold%20ACV%20for%20YOLOv8m-seg.ipynb) and dataset are publicly available.
   
 * **Undergraduate Thesis**, BUET Final Grade: A+ (4.00/4.00) (June 2023–July 2024)
   * "Developing a biofouling & corrosion identification and distribution system using video images based on deep learning"
   * Supervisor: Dr. Kazi Naimul Hoque
-  * Collected and curated the Narayanganj Dockyard Biofouling Dataset ([NDBD](https://github.com/saadalifazaman/NDBD)) form Dockyard & Engineering Works LTD, Narayanganj; 35 high-resolution hull images, 92 annotated instances, CC BY-NC 4.0 license, publicly available on GitHub. Then trained YOLOv8 segmentation variants (fouling F1 up to 0.90), producing a real-time detection prototype for automated 
-hull inspection. Funded by RISE Student Research Grant.
+  * Collected and curated the Narayanganj Dockyard Biofouling Dataset ([NDBD](https://github.com/saadalifazaman/NDBD)) form Dockyard & Engineering Works LTD, Narayanganj; 35 high resolution hull images, 92 annotated instances, CC BY-NC 4.0 license, publicly available on GitHub. Then trained YOLOv8 segmentation variants (fouling F1 up to 0.90), producing a real-time detection prototype for automated hull inspection. Funded by RISE Student Research Grant.
 
 * **Junior Year Project**, BUET Final Grade: A+ (4.00/4.00) (May 2022–May 2023)
   * "Designing an Inland 100 Passenger Ship for Inland Waterways of Bangladesh"
@@ -88,6 +87,6 @@ Grants & Scholarships
   <figcaption style="font-size: 0.85em; color: #666; margin-top: 0.4em;">RISE Student Research Grant certificate, 2023</figcaption>
 </figure>
 
-* **SPARRSO Research Fellowship Program, 2025–26:** Shortlisted for the final round; proposal: "Development of a Fixed-Wing VTOL Quad Plane for Flood Monitoring & Disaster Response."
+* **SPARRSO Research Fellowship Program, 2025–26:** Shortlisted (final round) among national applicants for a proposal stage research fellowship with the Space Research and Remote Sensing Organization ([SPARRSO](https://sparrso.gov.bd/)), Bangladesh; invited to present the written proposal "Development of a Fixed-Wing VTOL Quad Plane for Flood Monitoring & Disaster Response" (design not yet implemented).
 * **University Stipend Scholarship**, BUET (2019, 2020, 2021)
 * **Rajshahi Board Scholarship**, HSC 2018
