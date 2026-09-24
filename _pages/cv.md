@@ -41,12 +41,12 @@ Research Experience
 * **Research Assistant**, Dept. of Naval Architecture and Marine Engineering, BUET (August 2025–Present)
   * "Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection"
   * Supervisors: Dr. Kazi Naimul Hoque; Samiul Based Shuvo
-  * Proposed a k–n Fold Augmentation Cross-Validation protocol and a novel Interaction-Effect metric quantifying order-sensitivity among data augmentations, validated on a newly curated 35-image ship-hull dataset across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN.
-
+  * Addressing a core bottleneck in applied computer vision, the lack of large labeled datasets in real world industrial settings, we proposed a k–n Fold Augmentation Cross Validation (k–n Fold ACV) protocol, together with a novel Interaction Effect (IE) Metric that quantifies order sensitivity among data augmentations. The framework was validated on a newly curated [NDBD](https://github.com/saadalifazaman/NDBD) dataset of 35 high resolution ship hull images containing diverse biofouling patterns with 92 annotated instances. Eleven domain specific augmentations and 110 pairwise combinations were analyzed using YOLOv8m-seg as the base model, with cross validation across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN. The code and dataset are publicly available.
+  
 * **Undergraduate Thesis**, BUET Final Grade: A+ (4.00/4.00) (June 2023–July 2024)
   * "Developing a biofouling & corrosion identification and distribution system using video images based on deep learning"
   * Supervisor: Dr. Kazi Naimul Hoque
-  * Collected and curated the Narayanganj Dockyard Biofouling Dataset (NDBD); 35 high-resolution hull images, 92 annotated instances, CC BY-NC 4.0 license, publicly available on GitHub. Then trained YOLOv8 segmentation variants (fouling F1 up to 0.90), producing a real-time detection prototype for automated 
+  * Collected and curated the Narayanganj Dockyard Biofouling Dataset (NDBD) form Dockyard & Engineering Works LTD, Narayanganj; 35 high-resolution hull images, 92 annotated instances, CC BY-NC 4.0 license, publicly available on GitHub. Then trained YOLOv8 segmentation variants (fouling F1 up to 0.90), producing a real-time detection prototype for automated 
 hull inspection. Funded by RISE Student Research Grant.
 
 * **Junior Year Project**, BUET Final Grade: A+ (4.00/4.00) (May 2022–May 2023)
@@ -76,7 +76,6 @@ Skills
 * **Deep Learning:** Ultralytics YOLO, Mask R-CNN, PyTorch, TensorFlow
 * **Data Annotation & Processing:** CVAT, Roboflow, LabelImg
 * **Research Computing:** Google Colab, Kaggle
-* **Visualization:** Matplotlib, Seaborn, PowerPoint
 * **CAD / FEA:** AutoCAD, Rhino, Abaqus
 * **Document Preparation:** LaTeX, Microsoft Office
 
