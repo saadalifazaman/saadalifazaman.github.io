@@ -60,8 +60,8 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-### Standardized Test Scores
-
+Standardized Test Scores
+======
 **International English Language Testing System (IELTS) Academic** (15th December, 2025)  
 Overall Band Score: 7.5 (Listening: 8.5, Reading: 8.5, Writing: 6.5, Speaking: 7.0)
 
