@@ -13,7 +13,8 @@ redirect_from:
 
 Education
 ======
-* B.Sc. in Naval Architecture and Marine Engineering (NAME),  Bangladesh University of Engineering and Technology (BUET), 2024
+* B.Sc. in Naval Architecture and Marine Engineering ([NAME](https://name.buet.ac.bd/)) (April 2019 – July 2024)  
+  Bangladesh University of Engineering and Technology ([BUET](https://www.buet.ac.bd/web/#/))
   * Cumulative GPA: 3.37/4.00
 <h3>Relevant Coursework</h3>
 <p>Selected coursework directly relevant to my research, verified against 
