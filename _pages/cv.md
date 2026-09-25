@@ -53,7 +53,7 @@ Research Experience
 * **Junior Year Project**, BUET Final Grade: A+ (4.00/4.00) (May 2022–May 2023)
   * "[Designing an Inland 100 Passenger Ship for Inland Waterways of Bangladesh](https://saadalifazaman.github.io/portfolio/04-junior-year-electric-vessel-design/)"
   * Supervisor: Dr. Md. Mashiur Rahaman
-  * Designed a conceptual 100-passenger inland vessel with electric propulsion to reduce CO₂ emissions and improve energy efficiency compared to conventional diesel systems.
+  * Designed a conceptual 100-passenger inland vessel with an electric propulsion system tailored to Bangladesh’s inland waterway transport needs to reduce CO₂ emissions and improve energy efficiency compared to conventional diesel systems.
 
 Publications
 ======
