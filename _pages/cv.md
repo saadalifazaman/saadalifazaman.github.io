@@ -48,7 +48,7 @@ Research Experience
 * **Undergraduate Thesis**, BUET Final Grade: A+ (4.00/4.00) (June 2023–July 2024)
   * "[Developing a biofouling & corrosion identification and distribution system using video images based on deep learning](https://saadalifazaman.github.io/portfolio/02-undergraduate-thesis-biofouling-detection/)"
   * Supervisor: Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET
-  * Collected and curated the Narayanganj Dockyard Biofouling Dataset ([NDBD](https://github.com/saadalifazaman/NDBD)) form Dockyard & Engineering Works LTD, Narayanganj; 35 high resolution hull images, 92 annotated instances, CC BY-NC 4.0 license, publicly available on GitHub. Then trained YOLOv8 segmentation variants (fouling F1 up to 0.90), producing a real-time detection prototype for automated hull inspection. Funded by [RISE](https://rise.buet.ac.bd/#/) Student Research Grant.
+  * Collected and curated the Narayanganj Dockyard Biofouling Dataset (NDBD) form Dockyard & Engineering Works LTD, Narayanganj; 35 high resolution hull images, 92 annotated instances, CC BY-NC 4.0 license, publicly available on GitHub. Then trained YOLOv8 segmentation variants (fouling F1 up to 0.90), producing a real-time detection prototype for automated hull inspection. Funded by [RISE](https://rise.buet.ac.bd/#/) Student Research Grant.
 
 * **Junior Year Project**, BUET Final Grade: A+ (4.00/4.00) (May 2022–May 2023)
   * "[Designing an Inland 100 Passenger Ship for Inland Waterways of Bangladesh](https://saadalifazaman.github.io/portfolio/04-junior-year-electric-vessel-design/)"
