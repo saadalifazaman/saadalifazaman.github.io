@@ -1,5 +1,5 @@
 ---
-title: "Interaction-Effect Metric and k-n Fold ACV for Data-Scarce Industrial Vision"
+title: "Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection"
 excerpt: "A novel framework for principled augmentation pipeline design under extreme data scarcity (n < 50), validated on ship hull biofouling detection. Achieving up to +47.6% mAP improvement over baseline through augmentation ordering alone.<br/><img src='/images/ie-metric-fig9-qualitative.png'>"
 collection: portfolio
 ---
