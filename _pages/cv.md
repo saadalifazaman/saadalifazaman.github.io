@@ -40,18 +40,18 @@ Marine Maintenance and Repair, Welding Technology, Finite Element Methods, Numer
 Research Experience
 ======
 * **Research Assistant**, Dept. of Naval Architecture and Marine Engineering, BUET (August 2025–Present)
-  * "Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection"
+  * "[Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection](https://saadalifazaman.github.io/portfolio/01-research-assistant-biofouling-IE-metric/)"
   * Supervisors: Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
 	           Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET
-  * Addressing a core bottleneck in applied computer vision, the lack of large labeled datasets in real world industrial settings, we proposed a k–n Fold Augmentation Cross Validation (k–n Fold ACV) protocol, together with a novel Interaction Effect (IE) Metric that quantifies order sensitivity among data augmentations. The framework was validated on a newly curated [NDBD](https://github.com/saadalifazaman/NDBD) dataset of 35 high resolution ship hull images containing diverse biofouling patterns with 92 annotated instances. Eleven domain specific augmentations and 110 pairwise combinations were analyzed using YOLOv8m-seg as the base model, with cross validation across YOLO11m-seg, and Mask R-CNN. The [code](https://github.com/saadalifazaman/NDBD/blob/main/5-1%20Fold%20ACV%20for%20YOLOv8m-seg.ipynb) and dataset are publicly available.
+  * Addressing a core bottleneck in applied computer vision, the lack of large labeled datasets in real world industrial settings, we proposed a k–n Fold Augmentation Cross Validation (k–n Fold ACV) protocol, together with a novel Interaction Effect (IE) Metric that quantifies order sensitivity among data augmentations. The framework was validated on a newly curated [NDBD]([https://github.com/saadalifazaman/NDBD](https://saadalifazaman.github.io/portfolio/03-dataset-collection-narayanganj/)) dataset of 35 high resolution ship hull images containing diverse biofouling patterns with 92 annotated instances. Eleven domain specific augmentations and 110 pairwise combinations were analyzed using YOLOv8m-seg as the base model, with cross validation across YOLO11m-seg, and Mask R-CNN. The [code](https://github.com/saadalifazaman/NDBD/blob/main/5-1%20Fold%20ACV%20for%20YOLOv8m-seg.ipynb) and [dataset](https://github.com/saadalifazaman/NDBD/tree/main) are publicly available.
   
 * **Undergraduate Thesis**, BUET Final Grade: A+ (4.00/4.00) (June 2023–July 2024)
-  * "Developing a biofouling & corrosion identification and distribution system using video images based on deep learning"
+  * "[Developing a biofouling & corrosion identification and distribution system using video images based on deep learning](https://saadalifazaman.github.io/portfolio/02-undergraduate-thesis-biofouling-detection/)"
   * Supervisor: Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET
   * Collected and curated the Narayanganj Dockyard Biofouling Dataset ([NDBD](https://github.com/saadalifazaman/NDBD)) form Dockyard & Engineering Works LTD, Narayanganj; 35 high resolution hull images, 92 annotated instances, CC BY-NC 4.0 license, publicly available on GitHub. Then trained YOLOv8 segmentation variants (fouling F1 up to 0.90), producing a real-time detection prototype for automated hull inspection. Funded by [RISE](https://rise.buet.ac.bd/#/) Student Research Grant.
 
 * **Junior Year Project**, BUET Final Grade: A+ (4.00/4.00) (May 2022–May 2023)
-  * "Designing an Inland 100 Passenger Ship for Inland Waterways of Bangladesh"
+  * "[Designing an Inland 100 Passenger Ship for Inland Waterways of Bangladesh](https://saadalifazaman.github.io/portfolio/04-junior-year-electric-vessel-design/)"
   * Supervisor: Dr. Md. Mashiur Rahaman
   * Designed a conceptual 100-passenger inland vessel with electric propulsion to reduce CO₂ emissions and improve energy efficiency compared to conventional diesel systems.
 
