@@ -1,5 +1,5 @@
 ---
-title: "Biofouling & Corrosion Identification System Using Deep Learning"
+title: "Developing a biofouling & corrosion identification and distribution system using video images based on deep learning"
 excerpt: "Built a real-time hull inspection prototype using YOLOv8 segmentation variants on a self-collected fouling dataset and a public corrosion dataset. Achieving fouling detection F1 of 0.90 at confidence 0.68, with qualitative validation on both fouling and multi-class corrosion detection. Funded by RISE, BUET.
 <br/><img src='/images/thesis-detection-demo.gif'>"
 collection: portfolio
