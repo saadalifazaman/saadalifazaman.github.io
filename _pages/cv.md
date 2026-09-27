@@ -39,7 +39,7 @@ Marine Maintenance and Repair, Welding Technology, Finite Element Methods, Numer
 
 Research Experience
 ======
-* **Research Assistant**, Dept. of Naval Architecture and Marine Engineering, BUET (August 2025–Present)
+* **Independent Research Project** (August 2025–Present)
   * "[Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection](https://saadalifazaman.github.io/portfolio/01-research-assistant-biofouling-IE-metric/)"
   * Supervisors: Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
 	           Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET
