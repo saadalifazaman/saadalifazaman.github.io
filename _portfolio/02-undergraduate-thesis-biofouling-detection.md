@@ -64,7 +64,7 @@ Two data sources were combined:
 - The public corrosion dataset was pre-annotated using Labelme software
 - Converted from Labelme JSON format to YOLO format using the [natepolizogo/labelme2yolo](https://github.com/natepolizogo/labelme2yolo) conversion tool
 ![Raw fouling images and ground truth annotations](/images/ground-truths-of-Corrosion-images.jpg)
-*Raw hull images collected at Narayanganj Dockyard alongside their manually annotated ground truth segmentation masks. Green overlay indicates fouling regions.*
+*Raw images and ground-truth masks from the public bridge-inspection corrosion dataset (beric7/corrosion_cs_classification), annotated by its authors using Labelme. Colors indicate corrosion condition state: yellow = Fair Steel Corrosion, blue = Poor Steel Corrosion, red = Severe Steel Corrosion.*
   
 **dataset.yaml classes (nc: 4):**  
 The model was configured to detect four classes: three corrosion severity levels
