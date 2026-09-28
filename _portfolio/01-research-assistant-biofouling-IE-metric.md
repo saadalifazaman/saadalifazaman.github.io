@@ -4,7 +4,7 @@ excerpt: "A novel framework for principled augmentation pipeline design under ex
 collection: portfolio
 ---
 
-**Role:** Research Assistant (August 2025 – Present)  
+**Role:** Independent Research Project (August 2025 – Present)  
 **Supervisors:**  
 Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
 Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET  
