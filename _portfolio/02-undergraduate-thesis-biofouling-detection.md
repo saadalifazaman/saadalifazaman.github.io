@@ -163,11 +163,10 @@ features are not entirely dataset specific.
 
 ## What This Led To
 
-The overfitting pattern where a larger model underperforms a smaller one simply because the dataset is too small to support it. This was the clearest signal that not model architecture, but data scarcity was the binding constraint. Addressing that constraint through principled augmentation design became the focus of the
-subsequent RA research. So, the two gaps identified here directly shaped the subsequent RA research:
+The overfitting pattern, where a larger model underperformed a smaller one because the dataset was too small to support it. This was the clearest signal that data scarcity, not model architecture, was the binding constraint. Addressing that constraint through principled augmentation design became the focus of my subsequent independent research. Two gaps identified here shaped that work directly:
 
 **Data scarcity:** with only 27 usable fouling training images, the core constraint was not the model but the data. If more field images are not obtainable, can augmentation be made as principled and effective as possible?
 
-**No augmentation framework:** augmentation was applied informally; there was no method to determine which augmentations to use, in what order, or how pairs of augmentations interact. The follow-on RA work addressed this directly through the Interaction-Effect metric and k–n Fold ACV protocol.
+**No augmentation framework:** augmentation was applied informally; there was no method to determine which augmentations to use, in what order, or how pairs of augmentations interact. The follow-on independent research work addressed this directly through the Interaction Effect metric and k–n Fold ACV protocol.
 
-The 35 fouling images collected for this thesis became the core of the NDBD dataset used in the RA-level research. See the [Dataset Collection entry](/portfolio/00-dataset-collection-narayanganj/) and the [RA Research entry](/portfolio/01-research-assistant-biofouling-IE-metric/) for those contributions.
+The 35 fouling images collected for this thesis became the core of the NDBD dataset used in the independent research. See the [Dataset Collection entry](/portfolio/03-dataset-collection-narayanganj/) and the [Independent Research entry](/portfolio/01-research-assistant-biofouling-IE-metric/) for those contributions.
