@@ -6,7 +6,7 @@ collection: portfolio
 
 **Role:** Primary data collector and dataset curator  
 **Location:** Dockyard & Engineering Works Ltd., Narayanganj, Bangladesh  
-**Period:** 2023 (supporting Undergraduate Thesis and subsequent RA research)  
+**Period:** 2023 (supporting Undergraduate Thesis and subsequent Independent Research Project)  
 **Dataset License:** Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)  
 **Dataset:** [GitHub — NDBD](https://github.com/saadalifazaman/NDBD)
 
@@ -14,11 +14,9 @@ collection: portfolio
 
 ## Why This Dataset Had to Be Built From Scratch
 
-Marine biofouling datasets for computer vision-based inspection remain scarce because of the high cost, logistical complexity, and time-intensive collection 
+Marine biofouling datasets for computer vision based inspection remain scarce because of the high cost, logistical complexity, and time intensive collection 
 processes. Dockyard environments are even more constrained. Operational safety requirements, privacy regulations, and restricted access in active facilities 
-make data collection especially difficult. Existing public datasets in the literature mainly target marine debris, underwater organisms, or infrastructure fouling.
-But few capture real dockyard hull surfaces exhibiting the operational variabilities that define actual inspection conditions: human occlusions, inconsistent 
-lighting, and oblique viewing angles. This gap limits the development of robust segmentation models for safety-critical maintenance environments.
+make data collection especially difficult. Existing public datasets in the literature mainly target marine debris, underwater organisms, or infrastructure fouling. But few capture real dockyard hull surfaces exhibiting the operational variabilities that define actual inspection conditions: human occlusions, inconsistent lighting, and oblique viewing angles. This gap limits the development of robust segmentation models for safety critical maintenance environments.
 
 No usable public dataset existed for this domain. Building one was a prerequisite for any meaningful applied research.
 
@@ -80,11 +78,10 @@ This compliance documentation is included in the associated manuscript and follo
 This dataset directly enabled two subsequent research projects:
 
 1. **Undergraduate Thesis:** Biofouling and corrosion detection prototype using YOLOv8 segmentation variants, achieving fouling detection F1 up to 0.90
-2. **RA Research:** k–n Fold Augmentation Cross-Validation framework and Interaction-Effect metric for data-scarce industrial vision, validated across
-   YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN
+2. **Independent Research Project:** k–n Fold Augmentation Cross Validation framework and Interaction Effect metric for data scarce industrial vision, validated across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN
 
 The dataset is publicly available and intended to serve as a benchmark resource for future research in marine inspection, hull maintenance automation, and 
-industrial computer vision under data-scarce conditions.
+industrial computer vision under data scarce conditions.
 
 [Dataset (GitHub — NDBD)](https://github.com/saadalifazaman/NDBD) | [Associated Preprint (SSRN)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5966947)
 
