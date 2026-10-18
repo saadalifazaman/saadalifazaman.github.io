@@ -16,10 +16,13 @@ Education
 * B.Sc. in Naval Architecture and Marine Engineering ([NAME](https://name.buet.ac.bd/)) (April 2019 – July 2024)  
   Bangladesh University of Engineering and Technology ([BUET](https://www.buet.ac.bd/web/#/))
   * Cumulative GPA: 3.37/4.00
-<h3>Relevant Coursework</h3>
-<p>Selected coursework directly relevant to my research. For full course descriptions, see 
+<h3> **Academic Foundation: Computation & Structural Health** </h3>
+<p>My undergraduate coursework provided the rigorous physical engineering foundation necessary for applied structural health monitoring. While my research focuses on computer vision, my academic background ensures I understand the physical properties and failure modes of the structures my models inspect. Selected coursework directly relevant to my research. For full course descriptions, see 
 <a href="https://name.buet.ac.bd/undergraduate-courses" target="_blank">NAME's official undergraduate course catalog</a>:</p> 
-Marine Maintenance and Repair, Welding Technology, Finite Element Methods, Numerical Computations, Computer Programming (C/C++, FORTRAN), Applied Statistics
+**Computation & Mathematics:** Computer Programming I & II (C/C++, FORTRAN, OOP) [A+]; Statistics, PDEs, and Matrices (Applied Probability & Linear Algebra) [A]; Numerical Computations [B]
+**Structural Health & Degradation:** Marine Maintenance and Repair (Corrosion, Fatigue, Biofouling & Defect Analysis) [A-]; Welding Technology (NDT & Defect Inspection) [B+]; Finite Element Method for Ship Structure [B+]
+**Mechanics & Materials:** Mechanics of Structure [A]; Shipbuilding Materials [B+]
+
 <details>
   <summary style="cursor:pointer; color:#0645AD;">(click for course descriptions)</summary>
   <p><strong>Marine Maintenance and Repair (NAME 415):</strong> Maintenance requirements: 
