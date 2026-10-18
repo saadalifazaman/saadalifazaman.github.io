@@ -26,8 +26,6 @@ Education
 
 <details>
   <summary style="cursor:pointer; color:#0645AD;">(click for detailed course descriptions)</summary>
-  
-  <br>
   <p><em>My coursework provided the physical engineering foundation necessary for applied structural health monitoring. While my research focuses on computer vision, my academic background ensures I understand the physical properties and failure modes of the structures my models inspect.</em></p>
 
   <p><strong>Computation & Mathematics</strong></p>
