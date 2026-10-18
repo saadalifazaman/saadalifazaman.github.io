@@ -25,20 +25,24 @@ Education
 **Mechanics & Materials:** Mechanics of Structure [A]; Shipbuilding Materials [B+]
 
 <details>
-  <summary style="cursor:pointer; color:#0645AD;">(click for course descriptions)</summary>
-  <p><strong>Marine Maintenance and Repair (NAME 415):</strong> Maintenance requirements: 
-  corrosion, fatigue, marine fouling. Prevention and removal of marine growth; classification 
-  requirements of hull survey and defect identification; welding inspection.</p>
-  <p><strong>Welding Technology (NAME 345):</strong> Common defects in ship welding, 
-  non-destructive testing, inspection and testing of welded specimens.</p>
-  <p><strong>Finite Element Methods (NAME 371):</strong> Application of FEM to ship structure; 
-  isoparametric elements; linear static analysis.</p>
-  <p><strong>Numerical Computations (NAME 416):</strong> Interpolation, numerical 
-  differentiation/integration, regression analysis and curve fitting.</p>
-  <p><strong>Computer Programming (NAME 336, 436):</strong> FORTRAN 77/90 and C/C++, applied to 
-  hydrostatic, stability, and structural strength computations.</p>
-  <p><strong>Applied Statistics (Math 283):</strong> Probability, distributions, estimation, 
-  hypothesis testing, regression analysis.</p>
+  <summary style="cursor:pointer; color:#0645AD;">(click for detailed course descriptions)</summary>
+  
+  <br>
+  <p><em>My coursework provided the physical engineering foundation necessary for applied structural health monitoring. While my research focuses on computer vision, my academic background ensures I understand the physical properties and failure modes of the structures my models inspect.</em></p>
+
+  <p><strong>Computation & Mathematics</strong></p>
+  <p><strong>Computer Programming in Ship Design I & II (NAME 336, 436) [Grade: A+]:</strong> Focused on C/C++ and FORTRAN fundamentals, object-oriented programming (OOP), pointers, dynamic memory allocation, arrays, and algorithmic problem-solving for complex engineering computations.</p>
+  <p><strong>Statistics, Partial Differential Equation and Matrices (Math 283) [Grade: A]:</strong> Foundation in probability theory, continuous and discontinuous distributions, hypothesis testing, regression analysis, and matrix algebra (including eigenvalues and eigenvectors).</p>
+  <p><strong>Numerical Computations (NAME 416) [Grade: B]:</strong> Covered methods for interpolation, regression analysis, least squares curve fitting, and solving equations using finite difference techniques.</p>
+
+  <p><strong>Structural Health & Degradation</strong></p>
+  <p><strong>Marine Maintenance and Repair (NAME 415) [Grade: A-]:</strong> Core focus on the physical causes of structural failure, specifically corrosion, fatigue, and deformation. Covered the identification of defects in plates and welds, classification survey requirements, and the prevention/removal of marine biofouling.</p>
+  <p><strong>Welding Technology (NAME 345) [Grade: B+]:</strong> Study of structural joint integrity, including common welding defects, distortion monitoring, and Non-Destructive Testing (NDT) methodologies for inspecting welded specimens.</p>
+  <p><strong>Finite Element Method for Ship Structure (NAME 371) [Grade: B+]:</strong> Basic concepts of FEM applied to structural analysis, including the formulation of stiffness matrices for beam and shell elements, and linear static analysis of structures.</p>
+
+  <p><strong>Mechanics & Materials</strong></p>
+  <p><strong>Mechanics of Structure (NAME 251) [Grade: A]:</strong> Fundamental stress analysis, mechanical properties of materials, normal/shear/combined stresses, theories of failure, and structural joint analysis.</p>
+  <p><strong>Shipbuilding Materials (MME 293) [Grade: B+]:</strong> Industrially significant properties of metallic materials, protective coatings, and ferrous alloys (plain carbon, alloy, tool, and stainless steels).</p>
 </details>
 
 Research Experience
