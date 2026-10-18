@@ -17,7 +17,7 @@ Education
   Bangladesh University of Engineering and Technology ([BUET](https://www.buet.ac.bd/web/#/))
   * Cumulative GPA: 3.37/4.00
 <h3>Academic Foundation: Computation & Structural Health</h3>
-<p>My undergraduate coursework provided the rigorous physical engineering foundation necessary for applied structural health monitoring. While my research focuses on computer vision, my academic background ensures I understand the physical properties and failure modes of the structures my models inspect. Selected coursework directly relevant to my research. For full course descriptions, see 
+<p>Selected coursework directly relevant to my research. For full course descriptions, see 
 <a href="https://name.buet.ac.bd/undergraduate-courses" target="_blank">NAME's official undergraduate course catalog</a>:</p>  
 
 **Computation & Mathematics:** Computer Programming I & II (C/C++, FORTRAN, OOP) [A+]; Statistics, PDEs, and Matrices (Applied Probability & Linear Algebra) [A]; Numerical Computations [B]  
