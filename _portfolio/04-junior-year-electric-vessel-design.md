@@ -22,4 +22,4 @@ collection: portfolio
   <figcaption style="font-size: 0.85em; color: #666; margin-top: 0.4em;">Poster presented for the NAME 338 design project</figcaption>
 </figure>
 
-[Published Paper — Journal of Maritime Research, 20(3), 68–71](https://www.researchgate.net/publication/376992611)
+[Published Paper — Journal of Maritime Research, 20(3), 68–71]([https://www.researchgate.net/publication/376992611](https://www.jmr.unican.es/jmr/en/article/view/735/765))
