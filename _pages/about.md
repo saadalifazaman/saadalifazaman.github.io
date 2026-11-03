@@ -20,6 +20,6 @@ There's a longer story behind how I ended up here, from an electric-vessel desig
 ## Research Interests
 - **Data-Efficient Deep Learning:** Instance segmentation and systematic augmentation design for surface defect detection in low-data regimes.
 - **Automated Visual Inspection (AVI) & SHM:** In-situ condition assessment and Non-Destructive Evaluation (NDE) for marine and civil asset integrity (corrosion, biofouling, surface anomalies).
-- **Toward Perception for Robotic Platforms:** Bridging data-efficient vision models with physical deployment on UAV, ROV, and autonomous field platforms.
+- **Toward Perception for Autonomous Inspection:** Transitioning data-efficient vision models to process raw, unstructured sensor feeds from UAV, ROV, and autonomous field platforms.
 
   
