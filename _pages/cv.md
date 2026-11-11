@@ -49,17 +49,24 @@ Research Experience
   * "[Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection](https://saadalifazaman.github.io/portfolio/01-research-assistant-biofouling-IE-metric/)"
   * Supervisors: Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
 	           Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET
-  * Addressing a core bottleneck in applied computer vision, the lack of large labeled datasets in real world industrial settings, we proposed a k–n Fold Augmentation Cross Validation (k–n Fold ACV) protocol, together with a novel Interaction Effect (IE) Metric that quantifies order sensitivity among data augmentations. The framework was validated on a newly curated [NDBD](https://saadalifazaman.github.io/portfolio/03-dataset-collection-narayanganj/) dataset of 35 high resolution ship hull images containing diverse biofouling patterns with 92 annotated instances. Eleven domain specific augmentations and 110 pairwise combinations were analyzed using YOLOv8m-seg as the base model, with cross validation across YOLO11m-seg, and Mask R-CNN. The [code](https://github.com/saadalifazaman/NDBD/blob/main/5-1%20Fold%20ACV%20for%20YOLOv8m-seg.ipynb) and [dataset](https://github.com/saadalifazaman/NDBD/tree/main) are publicly available.
-  
+  * **Engineered** a leakage-free cross-validation protocol (k-n Fold ACV) to reduce test-train data split bias, alongside an Interaction Effect Metric to optimize augmentation pipelines for instance segmentation architectures (YOLOv8/11, Mask R-CNN).
+  * **Validated** the framework on a newly curated field dataset ([NDBD](https://saadalifazaman.github.io/portfolio/03-dataset-collection-narayanganj/), n=35), overcoming the extreme visual data scarcity of noisy operational environments to extract reliable physical measurements from limited imagery.
+  * **Achieved** a 47% mAP improvement over baseline training, executing cross-model validation and making the full [codebase](https://github.com/saadalifazaman/NDBD/blob/main/5-1%20Fold%20ACV%20for%20YOLOv8m-seg.ipynb) and [dataset](https://github.com/saadalifazaman/NDBD/tree/main) publicly available to ensure reproducibility.
+    
 * **Undergraduate Thesis**, BUET Final Grade: A+ (4.00/4.00) (June 2023–July 2024)
   * "[Developing a biofouling & corrosion identification and distribution system using video images based on deep learning](https://saadalifazaman.github.io/portfolio/02-undergraduate-thesis-biofouling-detection/)"
   * Supervisor: Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET
-  * Collected and curated the Narayanganj Dockyard Biofouling Dataset (NDBD) from Dockyard & Engineering Works Ltd., Narayanganj (CC BY-NC 4.0, publicly available on GitHub), and supplemented it with a public bridge inspection dataset for steel corrosion severity classes. Trained YOLOv8 segmentation variants (transfer learning) for biofouling and steel corrosion detection, reaching fouling F1 up to 0.90, and built a video based detection prototype for automated hull inspection. Funded by the [RISE](https://rise.buet.ac.bd/#/) Student Research Grant.
-
+  * **Collected and curated** in-situ field data to build the Narayanganj Dockyard Biofouling Dataset ([NDBD](https://saadalifazaman.github.io/portfolio/03-dataset-collection-narayanganj/)) directly from Dockyard & Engineering Works Ltd., Narayanganj (publicly available on GitHub), supplementing it with public bridge inspection data for steel corrosion severity.
+  * **Deployed** instance segmentation pipelines on heterogeneous, real-world structural data, demonstrating high-fidelity feature extraction that can be generalized to broader civil infrastructure monitoring, environmental material degradation, and automated condition assessment.
+  * **Developed** a video-based detection prototype, establishing the foundational perception pipeline required to integrate robust vision models with autonomous platforms (e.g., UAVs) for continuous structural monitoring.
+  * **Secured** the competitive [RISE](https://rise.buet.ac.bd/#/) Student Research Grant to fund the system's development.
+  
 * **Junior Year Project**, BUET Final Grade: A+ (4.00/4.00) (May 2022–May 2023)
   * "[Designing an Inland 100 Passenger Ship for Inland Waterways of Bangladesh](https://saadalifazaman.github.io/portfolio/04-junior-year-electric-vessel-design/)"
   * Supervisor: Dr. Md. Mashiur Rahaman
-  * Designed a conceptual 100-passenger inland vessel with an electric propulsion system tailored to Bangladesh’s inland waterway transport needs to reduce CO₂ emissions and improve energy efficiency compared to conventional diesel systems.
+  * **Designed** a conceptual 100-passenger inland vessel with an electric propulsion system tailored to Bangladesh’s inland waterways.
+  * **Optimized** the hull design and executed systems-level optimization of mechanical networks, utilizing finite element validation to resolve complex structural constraints and ensure physical integrity under dynamic loads.
+  * **Improved** energy efficiency compared to conventional diesel systems.
 
 Publications
 ======
@@ -100,6 +107,6 @@ Grants & Scholarships
   <figcaption style="font-size: 0.85em; color: #666; margin-top: 0.4em;">RISE Student Research Grant certificate, 2023</figcaption>
 </figure>
 
-* **SPARRSO Research Fellowship Program, 2025–26:** Shortlisted (final round) among national applicants for a proposal stage research fellowship of the Space Research and Remote Sensing Organization ([SPARRSO](https://sparrso.gov.bd/)), Bangladesh; invited to present the conceptual design framework for the "Development of a Fixed-Wing VTOL Quad Plane," proposing an aerial optical payload platform for large-scale environmental monitoring and civil reconnaissance.
+* **SPARRSO Research Fellowship Program, 2025–26:** Shortlisted (final round) among national applicants for a proposal stage research fellowship of the Space Research and Remote Sensing Organization ([SPARRSO](https://sparrso.gov.bd/)), Bangladesh; invited to present the conceptual design framework for the "Development of a Fixed-Wing VTOL Quad Plane," proposing an autonomous aerial vision platform specifically engineered for non-contact optical inspection and rapid post-event reconnaissance of large-scale infrastructure.
 * **University Stipend Scholarship**, BUET (2019, 2020, 2021)
 * **Rajshahi Board Scholarship**, HSC 2018
