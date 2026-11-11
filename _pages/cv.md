@@ -100,6 +100,6 @@ Grants & Scholarships
   <figcaption style="font-size: 0.85em; color: #666; margin-top: 0.4em;">RISE Student Research Grant certificate, 2023</figcaption>
 </figure>
 
-* **SPARRSO Research Fellowship Program, 2025–26:** Shortlisted (final round) among national applicants for a proposal stage research fellowship with the Space Research and Remote Sensing Organization ([SPARRSO](https://sparrso.gov.bd/)), Bangladesh; invited to present the written proposal "Development of a Fixed-Wing VTOL Quad Plane for Flood Monitoring & Disaster Response".
+* **SPARRSO Research Fellowship Program, 2025–26:** Shortlisted (final round) among national applicants for a proposal stage research fellowship of the Space Research and Remote Sensing Organization ([SPARRSO](https://sparrso.gov.bd/)), Bangladesh; invited to present the conceptual design framework for the "Development of a Fixed-Wing VTOL Quad Plane," proposing an aerial optical payload platform for large-scale environmental monitoring and civil reconnaissance.
 * **University Stipend Scholarship**, BUET (2019, 2020, 2021)
 * **Rajshahi Board Scholarship**, HSC 2018
