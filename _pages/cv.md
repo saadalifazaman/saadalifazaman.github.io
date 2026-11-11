@@ -22,7 +22,8 @@ Education
 
 **Computation & Mathematics:** Computer Programming I & II (C/C++, FORTRAN, OOP) [A+]; Statistics, PDEs, and Matrices (Applied Probability & Linear Algebra) [A]; Numerical Computations [B]  
 **Structural Health & Degradation:** Marine Maintenance and Repair (Corrosion, Fatigue, Biofouling & Defect Analysis) [A-]; Welding Technology (NDT & Defect Inspection) [B+]; Finite Element Method for Ship Structure [B+]  
-**Mechanics & Materials:** Mechanics of Structure [A]; Shipbuilding Materials [B+]
+**Mechanics, Materials & Dynamics:** Mechanics of Structure [A]; Shipbuilding Materials [B+]; Ship Vibration (Free/Forced Multi-Degree Systems) [B+]
+**Hydrodynamics & Environmental Physics:** Fluid Mechanics [S]; Marine Hydrodynamics [B]; Heat Transfer (Steady/Transient Conduction) [B]
 
 <details>
   <summary style="cursor:pointer; color:#0645AD;">(click for detailed course descriptions)</summary>
