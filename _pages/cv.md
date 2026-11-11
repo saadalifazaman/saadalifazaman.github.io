@@ -88,6 +88,9 @@ Work Experience & Teaching
   * Provided one-to-one and small-batch instruction to secondary and higher-secondary students (Bangla- and English-medium curricula), from foundational concepts through advanced problem-solving. Multiple students subsequently admitted to BUET, KUET, DU, and IUT.
 
 * **Industrial Internship — Shipyard Practice**, Khulna Shipyard Limited, Khulna (October–November 2022)
+  * **Industrial Fabrication & Manufacturing:** Gained direct exposure to heavy-scale industrial manufacturing processes, including CNC machining, structural welding, and multi-stage sub-assembly, bridging theoretical design with real-world physical construction.
+  * **Structural Design & Systems Integration:** Executed detailed construction drawings and analyzed complex hull, piping, and equipment networks, developing a practical understanding of structural geometries, load constraints, and field assembly operations.
+  * **Field Deployment Context:** Navigated active shipyard environments (from drydock erection to delivery trials), gaining the hands-on industrial intuition required to deploy practical vision-based SHM and NDT systems in dynamic, unstructured field settings. 
 
 Skills
 ======
