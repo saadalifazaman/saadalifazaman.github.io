@@ -18,8 +18,9 @@ I am looking to join a lab working on applied computer vision for infrastructure
 There's a longer story behind how I ended up here, from an electric-vessel design project to teaching myself deep learning to this line of research. [Read my full research statement →](/research-statement/)
 
 ## Research Interests
-- **Data-Efficient Deep Learning:** Instance segmentation and systematic augmentation design for surface defect detection in low-data regimes.
-- **Automated Visual Inspection (AVI) & SHM:** In-situ condition assessment and Non-Destructive Evaluation (NDE) for marine and civil asset integrity (corrosion, biofouling, surface anomalies).
-- **Toward Perception for Autonomous Inspection:** Transitioning data-efficient vision models to process raw, unstructured sensor feeds from UAV, ROV, and autonomous field platforms.
+- **Automated Visual Inspection (AVI):** Developing instance segmentation architectures and offline perception pipelines for the in-situ condition assessment of heavy civil and marine infrastructure.
+- **Data-Efficient Deep Learning:** Designing systematic augmentation protocols and mathematically optimized cross-validation frameworks to maximize model reliability in extreme data-scarce and visually occluded environments.
+- **Non-Contact Infrastructure Assessment:** Translating static vision models to analyze unstructured optical payload data deployed via UAVs, ROVs, and autonomous field platforms for rapid post-event reconnaissance and hazard mitigation.
+
 
   
