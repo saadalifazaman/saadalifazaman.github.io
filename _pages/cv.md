@@ -26,7 +26,7 @@ Education
 
 <details>
   <summary style="cursor:pointer; color:#0645AD;">(click for detailed course descriptions)</summary>
-  <p><em>My coursework provided the physical engineering foundation necessary for applied structural health monitoring. While my research focuses on computer vision, my academic background ensures I understand the physical properties and failure modes of the structures my models inspect.</em></p>
+  <p><em>My coursework provided the physical engineering foundation necessary for applied structural health monitoring and environmental assessment. While my research focuses on computer vision, my academic background ensures I understand the physical properties, dynamic load behaviors, and environmental interactions of the structures my models inspect.</em></p>
 
   <p><strong>Computation & Mathematics</strong></p>
   <p><strong>Computer Programming in Ship Design I & II (NAME 336, 436) [Grade: A+]:</strong> Focused on C/C++ and FORTRAN fundamentals, object-oriented programming (OOP), pointers, dynamic memory allocation, arrays, and algorithmic problem-solving for complex engineering computations.</p>
@@ -38,9 +38,15 @@ Education
   <p><strong>Welding Technology (NAME 345) [Grade: B+]:</strong> Study of structural joint integrity, including common welding defects, distortion monitoring, and Non-Destructive Testing (NDT) methodologies for inspecting welded specimens.</p>
   <p><strong>Finite Element Method for Ship Structure (NAME 371) [Grade: B+]:</strong> Basic concepts of FEM applied to structural analysis, including the formulation of stiffness matrices for beam and shell elements, and linear static analysis of structures.</p>
 
-  <p><strong>Mechanics & Materials</strong></p>
+  <p><strong>Mechanics, Materials & Dynamics</strong></p>
   <p><strong>Mechanics of Structure (NAME 251) [Grade: A]:</strong> Fundamental stress analysis, mechanical properties of materials, normal/shear/combined stresses, theories of failure, and structural joint analysis.</p>
   <p><strong>Shipbuilding Materials (MME 293) [Grade: B+]:</strong> Industrially significant properties of metallic materials, protective coatings, and ferrous alloys (plain carbon, alloy, tool, and stainless steels).</p>
+  <p><strong>Ship Vibration (NAME 439) [Grade: B+]:</strong> Free and forced vibration of single, two, and multi-degree of freedom systems, transverse vibration of beams, and added mass computation.</p>
+
+  <p><strong>Hydrodynamics & Environmental Physics</strong></p>
+  <p><strong>Marine Hydrodynamics (NAME 223) [Grade: B]:</strong> Flow of ideal and real fluids, Navier-Stokes equations, boundary layer displacement, momentum/energy thickness, and velocity/pressure distributions.</p>
+  <p><strong>Heat Transfer (NAME 329) [Grade: B]:</strong> Steady and unsteady state conduction, transient heat transfer, forced/natural convection, and empirical evaluation methods.</p>
+  <p><strong>Fluid Mechanics (NAME 123) [Grade: S]:</strong> Fluid properties, statics, kinematics, continuity, energy/momentum principles, and laminar/turbulent flows.</p>
 </details>
 
 Research Experience
