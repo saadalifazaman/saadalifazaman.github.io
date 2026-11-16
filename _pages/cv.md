@@ -57,8 +57,8 @@ Research Experience
   * Supervisors: Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
 	           Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET
   * **Engineered** a leakage-free cross-validation protocol (k-n Fold ACV) to reduce test-train data split bias, alongside an Interaction Effect Metric to optimize augmentation pipelines for instance segmentation architectures (YOLOv8/11, Mask R-CNN).
-  * **Validated** the framework on a newly curated field dataset ([NDBD](https://saadalifazaman.github.io/portfolio/03-dataset-collection-narayanganj/), n=35), overcoming the extreme visual data scarcity of noisy operational environments to extract reliable physical measurements from limited imagery.
-  * **Achieved** a 47% mAP improvement over baseline training, executing cross-model validation and making the full [codebase](https://github.com/saadalifazaman/NDBD/blob/main/5-1%20Fold%20ACV%20for%20YOLOv8m-seg.ipynb) and [dataset](https://github.com/saadalifazaman/NDBD/tree/main) publicly available to ensure reproducibility.
+  * **Validated** the framework on a newly curated field dataset, overcoming the extreme visual data scarcity of noisy operational environments to extract reliable physical measurements from limited imagery.
+  * **Achieved** Mask mAP50–95 of 0.517 (a 47% relative gain over the 0.351 baseline) on a highly constrained [35-image dataset](https://saadalifazaman.github.io/portfolio/03-dataset-collection-narayanganj/), executing cross-model validation and making the full [codebase](https://github.com/saadalifazaman/NDBD/blob/main/5-1%20Fold%20ACV%20for%20YOLOv8m-seg.ipynb) and [dataset](https://github.com/saadalifazaman/NDBD/tree/main) publicly available to ensure reproducibility.
     
 * **Undergraduate Thesis**, BUET Final Grade: A+ (4.00/4.00) (June 2023–July 2024)
   * "[Developing a biofouling & corrosion identification and distribution system using video images based on deep learning](https://saadalifazaman.github.io/portfolio/02-undergraduate-thesis-biofouling-detection/)"
