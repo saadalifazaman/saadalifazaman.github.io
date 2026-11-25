@@ -20,10 +20,10 @@ Education
 <p>Selected coursework directly relevant to my research. For full course descriptions, see 
 <a href="https://name.buet.ac.bd/undergraduate-courses" target="_blank">NAME's official undergraduate course catalog</a>:</p>  
 
-**Computation & Mathematics:** Computer Programming I & II (C/C++, FORTRAN, OOP) [A+]; Statistics, PDEs, and Matrices (Applied Probability & Linear Algebra) [A]; Numerical Computations [B]  
-**Structural Health & Degradation:** Marine Maintenance and Repair (Corrosion, Fatigue, Biofouling & Defect Analysis) [A-]; Welding Technology (NDT & Defect Inspection) [B+]; Finite Element Method for Ship Structure [B+]  
-**Mechanics, Materials & Dynamics:** Mechanics of Structure [A]; Shipbuilding Materials [B+]; Ship Vibration (Free/Forced multi-degree-of-freedom) [B+]  
-**Hydrodynamics & Environmental Physics:** Fluid Mechanics [S]; Marine Hydrodynamics [B]; Heat Transfer (Steady/Transient Conduction) [B]
+**Computation & Mathematics:** Computer Programming I & II (C/C++, FORTRAN, OOP); Statistics, PDEs, and Matrices (Applied Probability & Linear Algebra); Computer Aided Design; Numerical Computations  
+**Structural Health & Degradation:** Marine Maintenance and Repair (Corrosion, Fatigue, Biofouling & Defect Analysis); Welding Technology (NDT & Defect Inspection)  
+**Structural Mechanics, FEA & Dynamics:** Mechanics of Structure; Shipbuilding Materials; Finite Element Method for Ship Structure; Ship Vibration (Free/Forced multi-degree-of-freedom) 
+**Hydrodynamics & Environmental Physics:** Fluid Mechanics; Marine Hydrodynamics; Heat Transfer (Steady/Transient Conduction)
 
 <details>
   <summary style="cursor:pointer; color:#0645AD;">(click for detailed course descriptions)</summary>
