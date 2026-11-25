@@ -22,7 +22,7 @@ Education
 
 **Computation & Mathematics:** Computer Programming I & II (C/C++, FORTRAN, OOP) [A+]; Statistics, PDEs, and Matrices (Applied Probability & Linear Algebra) [A]; Numerical Computations [B]  
 **Structural Health & Degradation:** Marine Maintenance and Repair (Corrosion, Fatigue, Biofouling & Defect Analysis) [A-]; Welding Technology (NDT & Defect Inspection) [B+]; Finite Element Method for Ship Structure [B+]  
-**Mechanics, Materials & Dynamics:** Mechanics of Structure [A]; Shipbuilding Materials [B+]; Ship Vibration (Free/Forced Multi-Degree Systems) [B+]  
+**Mechanics, Materials & Dynamics:** Mechanics of Structure [A]; Shipbuilding Materials [B+]; Ship Vibration (Free/Forced multi-degree-of-freedom) [B+]  
 **Hydrodynamics & Environmental Physics:** Fluid Mechanics [S]; Marine Hydrodynamics [B]; Heat Transfer (Steady/Transient Conduction) [B]
 
 <details>
@@ -30,24 +30,27 @@ Education
   <p><em>My coursework provided the physical engineering foundation necessary for applied structural health monitoring and environmental assessment. While my research focuses on computer vision, my academic background ensures I understand the physical properties, dynamic load behaviors, and environmental interactions of the structures my models inspect.</em></p>
 
   <p><strong>Computation & Mathematics</strong></p>
-  <p><strong>Computer Programming in Ship Design I & II (NAME 336, 436) [Grade: A+]:</strong> Focused on C/C++ and FORTRAN fundamentals, object-oriented programming (OOP), pointers, dynamic memory allocation, arrays, and algorithmic problem-solving for complex engineering computations.</p>
-  <p><strong>Statistics, Partial Differential Equation and Matrices (Math 283) [Grade: A]:</strong> Foundation in probability theory, continuous and discontinuous distributions, hypothesis testing, regression analysis, and matrix algebra (including eigenvalues and eigenvectors).</p>
-  <p><strong>Numerical Computations (NAME 416) [Grade: B]:</strong> Covered methods for interpolation, regression analysis, least squares curve fitting, and solving equations using finite difference techniques.</p>
+  <p><strong>Computer Programming in Ship Design I & II (NAME 336, 436):</strong> Focused on C/C++ and FORTRAN fundamentals, object-oriented programming (OOP), pointers, dynamic memory allocation, arrays, and algorithmic problem-solving for complex engineering computations.</p>
+  <p><strong>Statistics, Partial Differential Equation and Matrices (Math 283):</strong> Foundation in probability theory, continuous and discontinuous distributions, sampling theory, hypothesis testing, regression analysis, linear/nonlinear PDEs, matrix transformations, and matrix algebra (including eigenvalues and eigenvectors).</p>
+  <p><strong>Computer Aided Design (NAME 246):</strong> 2D drafting and 3D wireframe, surface, and solid modeling for engineering structures.</p>
+  <p><strong>Numerical Computations (NAME 416):</strong> Covered methods for interpolation, regression analysis, least squares curve fitting, and solving equations using finite difference techniques.</p>
 
   <p><strong>Structural Health & Degradation</strong></p>
-  <p><strong>Marine Maintenance and Repair (NAME 415) [Grade: A-]:</strong> Core focus on the physical causes of structural failure, specifically corrosion, fatigue, and deformation. Covered the identification of defects in plates and welds, classification survey requirements, and the prevention/removal of marine biofouling.</p>
-  <p><strong>Welding Technology (NAME 345) [Grade: B+]:</strong> Study of structural joint integrity, including common welding defects, distortion monitoring, and Non-Destructive Testing (NDT) methodologies for inspecting welded specimens.</p>
-  <p><strong>Finite Element Method for Ship Structure (NAME 371) [Grade: B+]:</strong> Basic concepts of FEM applied to structural analysis, including the formulation of stiffness matrices for beam and shell elements, and linear static analysis of structures.</p>
-
-  <p><strong>Mechanics, Materials & Dynamics</strong></p>
-  <p><strong>Mechanics of Structure (NAME 251) [Grade: A]:</strong> Fundamental stress analysis, mechanical properties of materials, normal/shear/combined stresses, theories of failure, and structural joint analysis.</p>
-  <p><strong>Shipbuilding Materials (MME 293) [Grade: B+]:</strong> Industrially significant properties of metallic materials, protective coatings, and ferrous alloys (plain carbon, alloy, tool, and stainless steels).</p>
-  <p><strong>Ship Vibration (NAME 439) [Grade: B+]:</strong> Free and forced vibration of single, two, and multi-degree of freedom systems, transverse vibration of beams, and added mass computation.</p>
+  <p><strong>Marine Maintenance and Repair (NAME 415):</strong> Core focus on the physical causes of structural failure, specifically corrosion, fatigue, and deformation. Covered the identification of defects in plates and welds, welding inspection, classification survey requirements, and the prevention/removal of marine biofouling.</p>
+  <p><strong>Welding Technology (NAME 345) & Foundry and Welding Sessional (SHOP 188):</strong> Study of structural joint integrity, including common welding defects, distortion monitoring and control, steel surface preparation, and visual, destructive, and non-destructive testing (NDT) methodologies for inspecting welded specimens.</p>
+  
+  <p><strong>Structural Mechanics, FEA & Dynamics</strong></p>
+  <p><strong>Mechanics of Structure (NAME 251) & Sessional (NAME 252):</strong> Fundamental stress analysis, continuous beams, beams on elastic foundations, column buckling, mechanical properties of materials, normal/shear/combined stresses, theories of failure, and structural joint analysis.
+  <br><strong>Laboratory work:</strong> included tension, direct shear, hardness, impact, static bending, slender column buckling, and welded/riveted joint performance tests on steel specimens.</p>
+  <p><strong>Shipbuilding Materials (MME 293):</strong> Industrially significant properties of metallic materials, protective coatings, and ferrous alloys (plain carbon, alloy, tool, and stainless steels).</p>
+  <p><strong>Ship Structure Sessional (NAME 352):</strong> Experimental asymmetric bending, shear center determination, truss analysis, and computational structural problem-solving using finite element packages.</p>
+  <p><strong>Finite Element Method for Ship Structure (NAME 371):</strong> Basic concepts of FEM applied to structural analysis, including the formulation of stiffness matrices for beam and shell elements, and 2D/3D isoparametric elements, local-to-global coordinate transformations, plane stress/strain, nonlinear material behavior using FEA software, and linear static analysis of structures.</p>
+  <p><strong>Ship Vibration (NAME 439):</strong> Free and forced vibration of single, two, and multi-degree of freedom (MDOF) systems, transverse vibration of beams, hull girder frequency estimation, vibration measurement, allowable structural limits, and added mass computation.</p>
 
   <p><strong>Hydrodynamics & Environmental Physics</strong></p>
-  <p><strong>Marine Hydrodynamics (NAME 223) [Grade: B]:</strong> Flow of ideal and real fluids, Navier-Stokes equations, boundary layer displacement, momentum/energy thickness, and velocity/pressure distributions.</p>
-  <p><strong>Heat Transfer (NAME 329) [Grade: B]:</strong> Steady and unsteady state conduction, transient heat transfer, forced/natural convection, and empirical evaluation methods.</p>
-  <p><strong>Fluid Mechanics (NAME 123) [Grade: S]:</strong> Fluid properties, statics, kinematics, continuity, energy/momentum principles, and laminar/turbulent flows.</p>
+  <p><strong>Marine Hydrodynamics (NAME 223):</strong> Flow of ideal and real fluids, Navier-Stokes equations, boundary layer displacement, momentum/energy thickness, and velocity/pressure distributions.</p>
+  <p><strong>Heat Transfer (NAME 329):</strong> Steady and unsteady state conduction, transient heat transfer, forced/natural convection, and empirical evaluation methods.</p>
+  <p><strong>Fluid Mechanics (NAME 123):</strong> Fluid properties, statics, kinematics, continuity, energy/momentum principles, and laminar/turbulent flows.</p>
 </details>
 
 Research Experience
