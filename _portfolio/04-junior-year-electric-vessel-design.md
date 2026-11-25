@@ -1,6 +1,6 @@
 ---
-title: "Designing an Inland 100 Passenger Ship for Inland waterways of Bangladesh"
-excerpt: "Conceptual design of an electric-propulsion inland passenger vessel for Bangladesh's waterway network, benchmarked against conventional diesel systems for emissions and energy efficiency."
+title: "Design of an Electric Powered 100 Passenger Inland Vessel for Bangladesh"
+excerpt: "Conceptual design of an electric propulsion inland passenger vessel for Bangladesh's waterway network, benchmarked against conventional diesel systems for emissions and energy efficiency."
 collection: portfolio
 ---
 
