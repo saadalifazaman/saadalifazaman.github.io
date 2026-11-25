@@ -29,7 +29,7 @@ Education
   <summary style="cursor:pointer; color:#0645AD;">(click for detailed course descriptions)</summary>
   <p><em>My coursework provided the physical engineering foundation necessary for applied structural health monitoring and environmental assessment. While my research focuses on computer vision, my academic background ensures I understand the physical properties, dynamic load behaviors, and environmental interactions of the structures my models inspect.</em></p>
 
-  <p><strong>Computation & Mathematics</strong></p>
+  <p style="font-size: 1.2em; margin-top: 1.2em;"><strong>Computation & Mathematics</strong></p>
   <p><strong>Computer Programming in Ship Design I & II (NAME 336, 436):</strong> Focused on C/C++ and FORTRAN fundamentals, object-oriented programming (OOP), pointers, dynamic memory allocation, arrays, and algorithmic problem-solving for complex engineering computations.</p>
   <p><strong>Statistics, Partial Differential Equation and Matrices (Math 283):</strong> Foundation in probability theory, continuous and discontinuous distributions, sampling theory, hypothesis testing, regression analysis, linear/nonlinear PDEs, matrix transformations, and matrix algebra (including eigenvalues and eigenvectors).</p>
   <p><strong>Computer Aided Design (NAME 246):</strong> 2D drafting and 3D wireframe, surface, and solid modeling for engineering structures.</p>
