@@ -22,7 +22,7 @@ Education
 
 **Computation & Mathematics:** Computer Programming I & II (C/C++, FORTRAN, OOP); Statistics, PDEs, and Matrices (Applied Probability & Linear Algebra); Computer Aided Design; Numerical Computations  
 **Structural Health & Degradation:** Marine Maintenance and Repair (Corrosion, Fatigue, Biofouling & Defect Analysis); Welding Technology (NDT & Defect Inspection)  
-**Structural Mechanics, FEA & Dynamics:** Mechanics of Structure; Shipbuilding Materials; Finite Element Method for Ship Structure; Ship Vibration (Free/Forced multi-degree-of-freedom) 
+**Structural Mechanics, FEA & Dynamics:** Mechanics of Structure; Shipbuilding Materials; Finite Element Method for Ship Structure; Ship Vibration (Free/Forced multi-degree-of-freedom)  
 **Hydrodynamics & Environmental Physics:** Fluid Mechanics; Marine Hydrodynamics; Heat Transfer (Steady/Transient Conduction)
 
 <details>
