@@ -29,17 +29,17 @@ Education
   <summary style="cursor:pointer; color:#0645AD;">(click for detailed course descriptions)</summary>
   <p><em>My coursework provided the physical engineering foundation necessary for applied structural health monitoring and environmental assessment. While my research focuses on computer vision, my academic background ensures I understand the physical properties, dynamic load behaviors, and environmental interactions of the structures my models inspect.</em></p>
 
-  <h4><strong>Computation & Mathematics</strong></h4>
+  <p style="font-size: 1.2em; margin-top: 1.2em;"><strong>Computation & Mathematics</strong></p4>
   <p><strong>Computer Programming in Ship Design I & II (NAME 336, 436):</strong> Focused on C/C++ and FORTRAN fundamentals, object-oriented programming (OOP), pointers, dynamic memory allocation, arrays, and algorithmic problem-solving for complex engineering computations.</p>
   <p><strong>Statistics, Partial Differential Equation and Matrices (Math 283):</strong> Foundation in probability theory, continuous and discontinuous distributions, sampling theory, hypothesis testing, regression analysis, linear/nonlinear PDEs, matrix transformations, and matrix algebra (including eigenvalues and eigenvectors).</p>
   <p><strong>Computer Aided Design (NAME 246):</strong> 2D drafting and 3D wireframe, surface, and solid modeling for engineering structures.</p>
   <p><strong>Numerical Computations (NAME 416):</strong> Covered methods for interpolation, regression analysis, least squares curve fitting, and solving equations using finite difference techniques.</p>
 
-  <h4><strong>Structural Health & Degradation</strong></h4>
+  <p style="font-size: 1.2em; margin-top: 1.2em;"><strong>Structural Health & Degradation</strong></p4>
   <p><strong>Marine Maintenance and Repair (NAME 415):</strong> Core focus on the physical causes of structural failure, specifically corrosion, fatigue, and deformation. Covered the identification of defects in plates and welds, welding inspection, classification survey requirements, and the prevention/removal of marine biofouling.</p>
   <p><strong>Welding Technology (NAME 345) & Foundry and Welding Sessional (SHOP 188):</strong> Study of structural joint integrity, including common welding defects, distortion monitoring and control, steel surface preparation, and visual, destructive, and non-destructive testing (NDT) methodologies for inspecting welded specimens.</p>
   
-  <h4><strong>Structural Mechanics, FEA & Dynamics</strong></h4>
+  <p style="font-size: 1.2em; margin-top: 1.2em;"><strong>Structural Mechanics, FEA & Dynamics</strong></p4>
   <p><strong>Mechanics of Structure (NAME 251) & Sessional (NAME 252):</strong> Fundamental stress analysis, continuous beams, beams on elastic foundations, column buckling, mechanical properties of materials, normal/shear/combined stresses, theories of failure, and structural joint analysis.
   <br><strong>Laboratory work:</strong> included tension, direct shear, hardness, impact, static bending, slender column buckling, and welded/riveted joint performance tests on steel specimens.</p>
   <p><strong>Shipbuilding Materials (MME 293):</strong> Industrially significant properties of metallic materials, protective coatings, and ferrous alloys (plain carbon, alloy, tool, and stainless steels).</p>
@@ -47,7 +47,7 @@ Education
   <p><strong>Finite Element Method for Ship Structure (NAME 371):</strong> Basic concepts of FEM applied to structural analysis, including the formulation of stiffness matrices for beam and shell elements, and 2D/3D isoparametric elements, local-to-global coordinate transformations, plane stress/strain, nonlinear material behavior using FEA software, and linear static analysis of structures.</p>
   <p><strong>Ship Vibration (NAME 439):</strong> Free and forced vibration of single, two, and multi-degree of freedom (MDOF) systems, transverse vibration of beams, hull girder frequency estimation, vibration measurement, allowable structural limits, and added mass computation.</p>
 
-  <h4><strong>Hydrodynamics & Environmental Physics</strong></h4>
+  <p style="font-size: 1.2em; margin-top: 1.2em;"><strong>Hydrodynamics & Environmental Physics</strong></p4>
   <p><strong>Marine Hydrodynamics (NAME 223):</strong> Flow of ideal and real fluids, Navier-Stokes equations, boundary layer displacement, momentum/energy thickness, and velocity/pressure distributions.</p>
   <p><strong>Heat Transfer (NAME 329):</strong> Steady and unsteady state conduction, transient heat transfer, forced/natural convection, and empirical evaluation methods.</p>
   <p><strong>Fluid Mechanics (NAME 123):</strong> Fluid properties, statics, kinematics, continuity, energy/momentum principles, and laminar/turbulent flows.</p>
