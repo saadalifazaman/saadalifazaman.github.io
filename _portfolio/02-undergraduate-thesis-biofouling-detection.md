@@ -1,6 +1,6 @@
 ---
 title: "Developing a biofouling & corrosion identification and distribution system using video images based on deep learning"
-excerpt: "Built a real-time hull inspection prototype using YOLOv8 segmentation variants on a self-collected fouling dataset and a public corrosion dataset. Achieving fouling detection F1 of 0.90 at confidence 0.68, with qualitative validation on both fouling and multi-class corrosion detection. Funded by RISE, BUET.
+excerpt: "Built an offline video-based hull inspection prototype using YOLOv8 segmentation variants on a self-collected fouling dataset and a public corrosion dataset. Achieving fouling detection F1 of 0.90 at confidence 0.68, with qualitative validation on both fouling and multi-class corrosion detection. Funded by RISE, BUET.
 <br/><img src='/images/thesis-detection-demo.gif'>"
 collection: portfolio
 ---
@@ -33,10 +33,10 @@ This thesis addresses both gaps. Building a domain-specific dataset through dire
 
 ## Objectives
 
-1. Build a domain-specific image dataset suitable for training deep learning models to identify both biofouling and corrosion simultaneously
-2. Modify and fine-tune existing instance segmentation architectures for this multi-class detection task
-3. Determine the best-performing model variant for measuring the extent and severity of fouling and corrosion damage in a given area
-4. Enable real-time processing of video images to immediately locate affected hull areas
+1. Build a domain-specific image dataset suitable for training deep learning models to identify both biofouling and corrosion simultaneously.
+2. Modify and fine-tune existing instance segmentation architectures for this multi-class detection task.
+3. Determine the best-performing model variant for measuring the extent and severity of fouling and corrosion damage in a given area.
+4. Process hull video frame by frame, offline, to locate affected hull areas.
 
 ---
 
