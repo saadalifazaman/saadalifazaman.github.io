@@ -17,7 +17,7 @@ Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET
 
 Marine biofouling costs the global shipping industry up to **USD 30 billion annually**[(Martinez, 2025)](https://www.worldports.org/the-global-biofouling-challenge-calls-for-new-technology/) in increased fuel consumption and maintenance. A single ship with 10% barnacle coverage requires 36% more shaft power [AB (2025)](https://selektope.com/wp-content/uploads/2025/04/How-much-could-barnacle-biofouling-limit-shippings-decarbonisation.pdf) and over 110 million tons of excess CO₂ [AB (2025)](https://selektope.com/wp-content/uploads/2025/04/How-much-could-barnacle-biofouling-limit-shippings-decarbonisation.pdf) is emitted annually from ships that have hard biofouling on their hulls. Automated hull inspection is therefore a critical component of intelligent maritime maintenance.
 
-The core bottleneck is **data scarcity**. Real industrial inspection environments cannot produce thousands of labeled images. Because collecting and annotating hull imagery is expensive, logistically constrained, and access-restricted. Existing augmentation methods [AutoAugment](https://arxiv.org/abs/1805.09501) (Cubuk et al., 2019), [RandAugment](https://arxiv.org/abs/1909.13719) (Cubuk et al., 2020), [AugMix](https://arxiv.org/abs/1912.02781) (Hendrycks et al., 2019), and [TrivialAugment](https://arxiv.org/abs/2103.10158) (Müller & Hutter, 2021) optimize transformation selection but share a fundamental assumption: that the joint effect of two augmentations is adequately approximated by their independent contributions, and that applying augmentation A before B is equivalent to applying B before A. **This assumption has never been empirically tested in small-data instance segmentation regimes.**
+The core bottleneck is **data scarcity**. Real industrial inspection environments cannot produce thousands of labeled images. Because collecting and annotating hull imagery is expensive, logistically constrained, and access-restricted. Existing augmentation methods [AutoAugment](https://arxiv.org/abs/1805.09501) (Cubuk et al., 2019), [RandAugment](https://arxiv.org/abs/1909.13719) (Cubuk et al., 2020), [AugMix](https://arxiv.org/abs/1912.02781) (Hendrycks et al., 2019), and [TrivialAugment](https://arxiv.org/abs/2103.10158) (Müller & Hutter, 2021) focus on selecting which transformations to apply and how strongly. I did not find prior work that measures how specific pairs of augmentations interact, or whether their order matters, for instance segmentation with fewer than 50 labeled images.
 
 Without a metric to quantify whether two augmentations together outperform or underperform their individual contributions, practitioners working with fewer than 50 labeled images have no principled basis for pipeline construction. Thus, they rely entirely on trial and error.
 
@@ -32,7 +32,7 @@ This study presents a data-scarce industrial vision framework built around three
 
 ### 1. Interaction-Effect (IE) Metric
 
-A novel metric that explicitly quantifies **order-sensitive, pairwise augmentation interactions**:
+A metric that that explicitly quantifies **order-sensitive, pairwise augmentation interactions**:
 
 $$IE_{\alpha \to \beta} = CE_{\alpha \to \beta} - \frac{SE_\alpha + SE_\beta}{2}$$
 
@@ -123,7 +123,7 @@ Geometric augmentations (Rotation ±15°, Crop, Shear) consistently achieved the
 | Hue (±25°) | Rotation (±15°) | 0.503 ± 0.019 | +43.60% |
 | Baseline | — | 0.351 ± 0.012 | — |
 
-The **best ordered pair (Saturation → Rotation ±15°) outperforms the best single augmentation by +13.7%** absolute, achieved through sequencing decisions alone, no architectural modification, no additional inference-time cost.
+The **best ordered pair (Saturation → Rotation ±15°) outperforms the best single augmentation by +10.23%** absolute, achieved through sequencing decisions alone, no architectural modification, no additional inference-time cost.
 
 ![Performance comparison](/images/ie-metric-fig7-results.png)
 *Mask mAP50–95 across baseline, top single augmentations, and top ordered pairs (mean ± SD, 3 seeds, YOLOv8m-seg).*
