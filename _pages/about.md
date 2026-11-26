@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Prospective Graduate Researcher combining a background in **Naval Architecture with data-efficient deep learning**. My research focuses on developing algorithms for **Automated Visual Inspection (AVI)** and **vision-based Structural Health Monitoring (SHM)**. I am passionate about advancing **Non-Destructive Evaluation (NDE)** and **Condition Assessment** for heavy civil and marine infrastructure where labeled data is limited, expensive, or hard to collect at scale.
 
-My current work develops a novel Interaction-Effect metric and a k–n Fold Augmentation Cross-Validation protocol to systematically improve model performance on small, domain-specific datasets. I applied these to ship hull biofouling detection using a [dataset I collected and curated myself at Narayanganj Dockyard, Bangladesh](/portfolio/03-dataset-collection-narayanganj/). This work is currently in revision following peer review, targeting resubmission.
+My current work develops a novel Interaction-Effect metric and a k–n Fold Augmentation Cross-Validation protocol to systematically improve model performance on small, domain-specific datasets. I applied these to ship hull biofouling detection using a [dataset I collected and curated myself at Narayanganj Dockyard, Bangladesh](/portfolio/03-dataset-collection-narayanganj/). This work is posted as an SSRN preprint and am currently refining the manuscript for journal submission.
 
 I completed my undergraduate degree in Naval Architecture and Marine Engineering at the Bangladesh University of Engineering and Technology (BUET).
 
