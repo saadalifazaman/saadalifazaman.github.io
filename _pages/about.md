@@ -20,7 +20,7 @@ There's a longer story behind how I ended up here, from an electric-vessel desig
 ## Research Interests
 - **Automated Visual Inspection (AVI):** Developing instance segmentation architectures and offline perception pipelines for the in-situ condition assessment of heavy civil and marine infrastructure.
 - **Data-Efficient Deep Learning:** Designing systematic augmentation protocols and mathematically optimized cross-validation frameworks to maximize model reliability in extreme data-scarce and visually occluded environments.
-- **Non-Contact Infrastructure Assessment:** Translating static vision models to analyze unstructured optical payload data deployed via UAVs, ROVs, and autonomous field platforms for rapid post-event reconnaissance and hazard mitigation.
+- **Non-Contact Infrastructure Assessment:** Extending these methods with static vision models to analyze unstructured optical payload data deployed via UAVs, ROVs, and autonomous field platforms for rapid post-event reconnaissance and hazard mitigation.
 
 
   
