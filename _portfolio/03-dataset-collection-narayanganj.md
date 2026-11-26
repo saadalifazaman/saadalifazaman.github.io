@@ -6,7 +6,7 @@ collection: portfolio
 
 **Role:** Primary data collector and dataset curator  
 **Location:** Dockyard & Engineering Works Ltd., Narayanganj, Bangladesh  
-**Period:** 2023 (supporting Undergraduate Thesis and subsequent Independent Research Project)  
+**Period:** 2023 (supporting Undergraduate Thesis and subsequent Self-Directed Research)  
 **Dataset License:** Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)  
 **Dataset:** [GitHub — NDBD](https://github.com/saadalifazaman/NDBD)
 
