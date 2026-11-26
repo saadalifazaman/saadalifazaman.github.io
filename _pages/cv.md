@@ -55,9 +55,9 @@ Education
 
 Research Experience
 ======
-* **Independent Research Project** (August 2025–Present)
+* **Self-Directed Research Project** (August 2025–Present)
   * "[Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection](https://saadalifazaman.github.io/portfolio/01-research-assistant-biofouling-IE-metric/)"
-  * Supervisors: Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
+  * Faculty advisors: Dr. Kazi Naimul Hoque, Associate Professor, Dept. of Naval Architecture and Marine Engineering, BUET  
 	           Samiul Based Shuvo, Assistant Professor, Dept. of Biomedical Engineering, BUET
   * **Engineered** a leakage-free cross-validation protocol (k-n Fold ACV) to reduce test-train data split bias, alongside an Interaction Effect Metric to optimize augmentation pipelines for instance segmentation architectures (YOLOv8/11, Mask R-CNN).
   * **Validated** the framework on a newly curated field dataset, overcoming the extreme visual data scarcity of noisy operational environments to extract reliable physical measurements from limited imagery.
