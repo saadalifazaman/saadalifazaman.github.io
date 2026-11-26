@@ -3,10 +3,10 @@ title: "Interaction-Effect Metric for Data-Scarce Industrial Vision: Application
 collection: publications
 permalink: /publication/2026-01-01-biofouling-detection
 excerpt: 'Proposed a k–n Fold Augmentation Cross-Validation protocol and a novel Interaction-Effect metric quantifying order-sensitivity among data augmentations, validated on a newly curated ship-hull biofouling dataset across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN.'
-date: 2026-09-18
-venue: 'Preprint (in revision)'
+date: 2025-12-25
+venue: 'SSRN preprint'
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5966947'
-citation: 'Zaman, S. A., Shuvo, S. B., & Hoque, K. N. (2026). &quot;Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection.&quot; Preprint; in revision following peer review.'
+citation: 'Zaman, S. A., Shuvo, S. B., & Hoque, K. N. (2025). &quot;Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection.&quot; Preprint; in revision following peer review.'
 ---
 
-To mitigate small-data bias in industrial computer vision, this work proposes a k–n Fold Augmentation Cross-Validation (k–n Fold ACV) protocol together with a novel Interaction-Effect (IE) metric that quantifies order-sensitivity among data augmentations. Validated on a newly curated dataset ([NDBD](https://saadalifazaman.github.io/portfolio/03-dataset-collection-narayanganj/)) of 35 high-resolution ship-hull images across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN. [Code and dataset](https://github.com/saadalifazaman/NDBD) and [Preprint (SSRN)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5966947) are publicly available.
+To mitigate small-data bias in industrial computer vision, this work proposes a k–n Fold Augmentation Cross-Validation (k–n Fold ACV) protocol together with an Interaction-Effect (IE) metric that quantifies order-sensitivity among data augmentations. Validated on a newly curated dataset ([NDBD](https://saadalifazaman.github.io/portfolio/03-dataset-collection-narayanganj/)) of 35 high-resolution ship-hull images across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN. [Code and dataset](https://github.com/saadalifazaman/NDBD) and [Preprint (SSRN)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5966947) are publicly available.
