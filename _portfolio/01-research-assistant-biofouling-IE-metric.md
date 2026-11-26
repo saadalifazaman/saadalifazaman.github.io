@@ -1,6 +1,6 @@
 ---
 title: "Interaction-Effect Metric for Data-Scarce Industrial Vision: Application to Ship Hull Biofouling Inspection"
-excerpt: "A novel framework for principled augmentation pipeline design under extreme data scarcity (n < 50), validated on ship hull biofouling detection. Achieving up to +47.6% mAP improvement over baseline through augmentation ordering alone.<br/><img src='/images/ie-metric-fig9-qualitative.png'>"
+excerpt: "A cross-validation protocol and an interaction-effect metric for comparing augmentation choices when only a few dozen labeled images are available, evaluated on a 35-image ship-hull biofouling dataset. The best augmentation pair raised mean Mask mAP50–95 from 0.351 to 0.517 (+47.6% mAP improvement over baseline for YOLOv8m-seg, 5-fold cross-validation, 3 seeds).<br/><img src='/images/ie-metric-fig9-qualitative.png'>"
 collection: portfolio
 ---
 
