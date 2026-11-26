@@ -169,4 +169,4 @@ The overfitting pattern, where a larger model underperformed a smaller one becau
 
 **No augmentation framework:** augmentation was applied informally; there was no method to determine which augmentations to use, in what order, or how pairs of augmentations interact. The follow-on independent research work addressed this directly through the Interaction Effect metric and k–n Fold ACV protocol.
 
-The 35 fouling images collected for this thesis became the core of the NDBD dataset used in the independent research. See the [Dataset Collection entry](/portfolio/03-dataset-collection-narayanganj/) and the [Independent Research entry](/portfolio/01-research-assistant-biofouling-IE-metric/) for those contributions.
+The 35 fouling images collected for this thesis became the core of the NDBD dataset used in the independent research. See the [Dataset Collection entry](/portfolio/03-dataset-collection-narayanganj/) and the [self-directed research](/portfolio/01-research-assistant-biofouling-IE-metric/) for those contributions.
