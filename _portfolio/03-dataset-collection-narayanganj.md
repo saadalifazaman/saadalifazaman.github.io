@@ -78,7 +78,7 @@ This compliance documentation is included in the associated manuscript and follo
 This dataset directly enabled two subsequent research projects:
 
 1. **Undergraduate Thesis:** Biofouling and corrosion detection prototype using YOLOv8 segmentation variants, achieving fouling detection F1 up to 0.90
-2. **Independent Research Project:** k–n Fold Augmentation Cross Validation framework and Interaction Effect metric for data scarce industrial vision, validated across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN
+2. **Self-Directed Research:** k–n Fold Augmentation Cross Validation framework and Interaction Effect metric for data scarce industrial vision, validated across YOLOv8m-seg, YOLO11m-seg, and Mask R-CNN
 
 The dataset is publicly available and intended to serve as a benchmark resource for future research in marine inspection, hull maintenance automation, and 
 industrial computer vision under data scarce conditions.
