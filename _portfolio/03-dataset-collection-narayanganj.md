@@ -63,11 +63,11 @@ The dataset captures six representative scene types:
 This dataset was collected following the [Datasheets for Datasets (Gebru et al., 2021)](https://dl.acm.org/doi/10.1145/3458723) framework, with explicit 
 attention to purpose transparency, privacy, consent, and diversity. Key compliance steps:
 
-- **Institutional consent** obtained from Dockyard & Engineering Works Ltd. in compliance with local regulations and GDPR principles
+- **Institutional consent:** Consent for image collection was obtained from the dockyard. Faces and vessel identifiers were removed before release.
 - **No personally identifiable information (PII):** Faces, vessel numbers, and other identifiers were removed during preprocessing
-- **IMO ethical principles** regarding marine worker safety were observed throughout collection
-- **Bias audit** conducted to ensure balanced representation across hull coverage types
-- **Anonymized dataset** released under CC BY-NC 4.0, prohibiting re-identification
+- **IMO ethical principles:** regarding marine worker safety were observed throughout collection
+- **Coverage and scope:** Coverage varies across the set (4 images above 80% of the frame, 20 medium-scale at 30–80%, 11 contextual below 30%), and all images come from one dockyard, so the dataset should not be treated as representative of all hull conditions.
+- **Anonymized dataset:** released under CC BY-NC 4.0, prohibiting re-identification
 
 This compliance documentation is included in the associated manuscript and follows standards expected by international venues for dataset publication.
 
